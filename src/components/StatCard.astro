@@ -1,0 +1,39 @@
+---
+interface Props {
+  label: string;
+  value: string;
+  sub?: string;
+  accent?: 'primary' | 'secondary' | 'tertiary';
+  dataKey?: string;
+}
+
+const { label, value, sub, accent = 'primary', dataKey } = Astro.props;
+
+const borderClass = {
+  primary: 'border-primary bg-primary/5',
+  secondary: 'border-secondary bg-secondary-container/10',
+  tertiary: 'border-tertiary bg-tertiary-fixed-dim/20',
+}[accent];
+
+const textClass = {
+  primary: 'text-primary',
+  secondary: 'text-secondary',
+  tertiary: 'text-tertiary',
+}[accent];
+---
+
+<div class:list={['flex items-center gap-4 rounded-xl border-l-4 p-6', borderClass]}>
+  <div
+    class:list={[
+      'flex h-16 w-16 items-center justify-center rounded-full border-[6px] border-current/20 font-bold',
+      textClass,
+    ]}
+    data-stat-ring={dataKey}
+  >
+    <span data-stat-percent={dataKey}>{value}</span>
+  </div>
+  <div>
+    <div class:list={['font-anton text-xl uppercase leading-tight', textClass]}>{label}</div>
+    {sub && <div class="text-on-surface-variant" data-stat-sub={dataKey}>{sub}</div>}
+  </div>
+</div>

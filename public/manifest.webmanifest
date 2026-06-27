@@ -1,0 +1,10 @@
+{
+  "name": "StickerSync 2026",
+  "short_name": "StickerSync",
+  "description": "Tracker del álbum Panini Mundial 2026",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9f9f9",
+  "theme_color": "#4a00b7",
+  "lang": "es"
+}

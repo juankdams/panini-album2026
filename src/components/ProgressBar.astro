@@ -1,0 +1,17 @@
+---
+interface Props {
+  percent: number;
+  colorClass?: string;
+  dataKey?: string;
+}
+
+const { percent, colorClass = 'bg-secondary-fixed-dim', dataKey } = Astro.props;
+---
+
+<div class="h-2.5 w-full overflow-hidden rounded-full bg-surface-container-high">
+  <div
+    class:list={['h-full transition-all duration-700', colorClass]}
+    style={`width: ${percent}%`}
+    data-progress-bar={dataKey}
+  />
+</div>

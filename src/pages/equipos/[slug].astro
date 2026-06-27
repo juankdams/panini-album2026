@@ -1,0 +1,70 @@
+---
+import AppLayout from '../../layouts/AppLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StickerSlot from '../../components/StickerSlot.astro';
+import GroupNav from '../../components/GroupNav.astro';
+import { getStickersByTeam, teams } from '../../lib/catalog';
+
+export function getStaticPaths() {
+  return teams.map((team) => ({ params: { slug: team.slug }, props: { team } }));
+}
+
+const { team } = Astro.props;
+const stickers = getStickersByTeam(team.id);
+---
+
+<AppLayout title={`${team.name} | StickerSync 2026`}>
+  <Header />
+  <main class="mx-auto w-full max-w-7xl flex-grow px-section py-8">
+    <section
+      class="amplify-pattern relative mb-8 flex flex-col items-center gap-6 overflow-hidden rounded-xl p-6 text-white shadow-xl md:mb-12 md:flex-row md:gap-8 md:p-8"
+      data-team-header
+      data-team-id={team.id}
+    >
+      <div class="relative z-10 flex h-20 w-32 flex-shrink-0 items-center justify-center rounded-lg border-2 border-white bg-primary/30 font-anton text-3xl">
+        {team.code}
+      </div>
+      <div class="relative z-10 w-full flex-grow">
+        <div class="mb-4 flex flex-col items-baseline justify-between md:flex-row">
+          <h1 class="font-anton text-2xl uppercase tracking-tight md:text-5xl">{team.name}</h1>
+          <span class="font-anton text-secondary-fixed" data-team-header-percent>0% Completo (0 / 20)</span>
+        </div>
+        <div class="h-6 w-full overflow-hidden rounded-full border-2 border-white/20 bg-black/30">
+          <div class="h-full bg-secondary-fixed transition-all duration-700" style="width: 0%" data-team-header-bar></div>
+        </div>
+        <div class="mt-4 flex flex-wrap gap-3 text-sm font-bold uppercase">
+          <span class="rounded bg-white/20 px-3 py-1">Grupo {team.group}</span>
+          <span class="rounded bg-white/20 px-3 py-1">{team.confederation}</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="mb-8 flex flex-col gap-6">
+      <div class="flex flex-col justify-between gap-4 md:flex-row md:items-center">
+        <div class="flex w-full items-center gap-2 md:w-auto">
+          <input
+            type="text"
+            placeholder={`CÓDIGO (ej. ${team.code}15)`}
+            class="w-full border-4 border-on-surface bg-surface-container-lowest px-4 py-3 text-xs font-bold uppercase focus:border-primary focus:outline-none md:w-64"
+            data-quick-add-input
+            data-team-code={team.code}
+          />
+          <button
+            type="button"
+            class="min-h-11 shrink-0 bg-primary px-6 py-3 font-anton text-sm uppercase text-white high-contrast-border hover:bg-primary-container"
+            data-quick-add-btn
+          >
+            Añadir
+          </button>
+        </div>
+      </div>
+      <GroupNav team={team} />
+    </div>
+
+    <div class="sticker-grid grid grid-cols-3 gap-3 md:grid-cols-4 md:gap-4 lg:grid-cols-5">
+      {stickers.map((sticker) => <StickerSlot sticker={sticker} />)}
+    </div>
+  </main>
+  <Footer />
+</AppLayout>

@@ -1,0 +1,60 @@
+---
+import AppLayout from '../../layouts/AppLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StatCard from '../../components/StatCard.astro';
+import TeamCard from '../../components/TeamCard.astro';
+import FilterBar from '../../components/FilterBar.astro';
+import { teams, TOTAL_STICKERS } from '../../lib/catalog';
+import { emptyCollection } from '../../lib/collection';
+import { globalProgress } from '../../lib/progress';
+
+const collection = emptyCollection();
+const global = globalProgress(collection);
+---
+
+<AppLayout title="Equipos | StickerSync 2026">
+  <Header />
+  <main class="mx-auto w-full max-w-(--container-max) flex-grow px-section py-10">
+    <div class="mb-10 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+      <div>
+        <h1 class="font-anton mb-2 text-3xl uppercase tracking-tight text-on-surface md:text-6xl">Selecciones</h1>
+        <p class="text-on-surface-variant">Progreso de las 48 naciones del Mundial 2026.</p>
+      </div>
+      <FilterBar />
+    </div>
+
+    <div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <StatCard
+        label="Progreso global"
+        value={`${global.percent}%`}
+        sub={`${global.owned} / ${TOTAL_STICKERS} figuritas`}
+        accent="primary"
+        dataKey="global"
+      />
+      <StatCard
+        label="Faltantes"
+        value="—"
+        sub={`${global.missing.length} pendientes`}
+        accent="secondary"
+        dataKey="missing"
+      />
+      <StatCard
+        label="Repetidas"
+        value="—"
+        sub="0 repetidas"
+        accent="tertiary"
+        dataKey="duplicates"
+      />
+    </div>
+
+    <p class="mb-4 text-xs font-bold uppercase tracking-widest text-on-surface-variant" data-teams-visible>
+      Mostrando {teams.length} de {teams.length} equipos
+    </p>
+
+    <div class="grid grid-cols-1 gap-sticker-gap sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {teams.map((team) => <TeamCard team={team} />)}
+    </div>
+  </main>
+  <Footer />
+</AppLayout>

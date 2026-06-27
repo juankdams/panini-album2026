@@ -1,0 +1,53 @@
+---
+import ProgressBar from './ProgressBar.astro';
+import type { Team } from '../lib/types';
+
+interface Props {
+  team: Team;
+  owned?: number;
+  total?: number;
+  percent?: number;
+}
+
+const { team, owned = 0, total = 20, percent = 0 } = Astro.props;
+const complete = percent >= 100;
+---
+
+<a
+  href={`/equipos/${team.slug}`}
+  class="group relative cursor-pointer overflow-hidden rounded-xl border border-outline-variant/30 bg-white card-shadow transition-all"
+  data-team-card={team.id}
+  data-group={team.group}
+  data-confederation={team.confederation}
+>
+  <div class="fifa-pattern pointer-events-none absolute inset-0"></div>
+  <div class="relative h-28 overflow-hidden bg-primary/10">
+    <div class="flex h-full items-center justify-center bg-gradient-to-br from-primary/20 to-secondary/20">
+      <span class="font-anton text-4xl uppercase text-primary/40">{team.code}</span>
+    </div>
+    <div class="absolute bottom-3 left-4 rounded-full bg-white/90 px-3 py-1 backdrop-blur">
+      <span class="text-[10px] font-bold uppercase tracking-wider text-primary">{team.confederation}</span>
+    </div>
+  </div>
+  <div class="relative p-5">
+    <div class="mb-4 flex items-start justify-between">
+      <h3 class="font-anton text-xl uppercase text-on-surface">{team.name}</h3>
+      <span class="rounded-full bg-primary/10 px-2 py-1 text-xs font-bold text-primary">Grupo {team.group}</span>
+    </div>
+    <div class="space-y-2">
+      <div class="flex justify-between text-xs font-bold uppercase tracking-wider">
+        <span class="text-on-surface-variant">Conseguidas</span>
+        <span data-team-owned={team.id}>{owned}/{total}</span>
+      </div>
+      <ProgressBar percent={percent} dataKey={team.id} />
+    </div>
+    {
+      complete && (
+        <div class="mt-3 flex items-center gap-1 text-tertiary" data-team-complete={team.id}>
+          <span class="material-symbols-outlined material-symbols-filled text-base">workspace_premium</span>
+          <span class="text-xs font-bold">COMPLETADO</span>
+        </div>
+      )
+    }
+  </div>
+</a>

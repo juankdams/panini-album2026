@@ -1,0 +1,53 @@
+---
+import AppLayout from '../../layouts/AppLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+---
+
+<AppLayout title="Iniciar sesión | StickerSync 2026">
+  <Header />
+  <main class="mx-auto w-full max-w-md flex-grow px-section py-10">
+    <h1 class="font-anton mb-2 text-3xl uppercase text-on-surface">Iniciar sesión</h1>
+    <p class="mb-8 text-on-surface-variant">Sincroniza tu colección en la nube y accede desde cualquier dispositivo.</p>
+
+    <form data-auth-form="login" class="space-y-4 border-4 border-on-surface bg-surface-container-lowest p-6">
+      <div>
+        <label for="email" class="mb-1 block text-xs font-bold uppercase">Email</label>
+        <input
+          id="email"
+          name="email"
+          type="email"
+          required
+          autocomplete="email"
+          class="w-full border-4 border-outline-variant bg-white px-4 py-3 text-sm focus:border-primary focus:outline-none"
+        />
+      </div>
+      <div>
+        <label for="password" class="mb-1 block text-xs font-bold uppercase">Contraseña</label>
+        <input
+          id="password"
+          name="password"
+          type="password"
+          required
+          minlength="6"
+          autocomplete="current-password"
+          class="w-full border-4 border-outline-variant bg-white px-4 py-3 text-sm focus:border-primary focus:outline-none"
+        />
+      </div>
+      <p data-auth-error class="hidden text-sm font-bold text-error" role="alert"></p>
+      <button
+        type="submit"
+        class="w-full bg-primary py-3 font-anton text-sm uppercase text-on-primary high-contrast-border hover:bg-primary-container"
+      >
+        Entrar
+      </button>
+    </form>
+
+    <p class="mt-6 text-center text-sm text-on-surface-variant">
+      ¿No tienes cuenta?
+      <a href="/auth/register" class="font-bold text-primary hover:underline">Regístrate</a>
+    </p>
+  </main>
+  <Footer />
+  <script src="../../scripts/auth.ts"></script>
+</AppLayout>

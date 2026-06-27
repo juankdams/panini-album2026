@@ -1,0 +1,23 @@
+---
+import AppLayout from '../layouts/AppLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import ExportBar from '../components/ExportBar.astro';
+---
+
+<AppLayout title="Repetidas | StickerSync 2026">
+  <Header />
+  <main class="mx-auto w-full max-w-(--container-max) flex-grow px-section py-10">
+    <div class="mb-8 flex flex-col justify-between gap-4 md:flex-row md:items-end">
+      <div>
+        <h1 class="font-anton mb-2 text-3xl uppercase text-on-surface md:text-4xl">Figuritas repetidas</h1>
+        <p class="text-on-surface-variant">Extras para intercambiar con otros coleccionistas.</p>
+      </div>
+      <ExportBar exportType="duplicates" />
+    </div>
+    <div data-list-container="duplicates">
+      <p class="text-on-surface-variant">Cargando tu colección…</p>
+    </div>
+  </main>
+  <Footer />
+</AppLayout>

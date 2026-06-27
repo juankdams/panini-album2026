@@ -1,0 +1,69 @@
+---
+const path = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Inicio', icon: 'home' },
+  { href: '/equipos', label: 'Equipos', icon: 'groups' },
+  { href: '/album', label: 'Álbum', icon: 'collections_bookmark' },
+  { href: '/faltantes', label: 'Faltantes', icon: 'checklist' },
+  { href: '/repetidas', label: 'Repetidas', icon: 'sync' },
+];
+
+function isActive(href: string) {
+  if (href === '/') return path === '/';
+  return path.startsWith(href);
+}
+---
+
+<header class="sticky top-0 z-50 w-full border-b border-outline-variant/30 bg-surface-container-lowest shadow-sm safe-top">
+  <div class="mx-auto flex h-14 max-w-(--container-max) items-center justify-between gap-2 px-section md:h-20">
+    <a href="/" class="font-anton text-lg uppercase tracking-tight text-primary md:text-2xl">StickerSync</a>
+
+    <nav class="hidden items-center gap-5 md:flex">
+      {
+        links.map((link) => (
+          <a
+            href={link.href}
+            class:list={[
+              'text-xs font-bold uppercase tracking-wider transition-colors',
+              isActive(link.href)
+                ? 'border-b-2 border-primary pb-1 text-primary'
+                : 'text-on-surface-variant hover:text-primary',
+            ]}
+          >
+            {link.label}
+          </a>
+        ))
+      }
+    </nav>
+
+    <div class="flex items-center gap-2 md:gap-4">
+      <span
+        data-sync-status
+        data-sync-state="local"
+        class="hidden text-[10px] font-bold uppercase tracking-wide text-on-surface-variant md:inline"
+        title="Estado de sincronización"
+      >
+        Solo local
+      </span>
+      <div data-auth-login class="flex items-center gap-2">
+        <a
+          href="/auth/login"
+          class="text-[10px] font-bold uppercase text-primary hover:underline md:text-xs"
+        >
+          Entrar
+        </a>
+      </div>
+      <div data-auth-user class="hidden items-center gap-2">
+        <span data-auth-email class="hidden max-w-24 truncate text-[10px] text-on-surface-variant md:inline md:max-w-40"></span>
+        <button
+          type="button"
+          data-auth-logout
+          class="text-[10px] font-bold uppercase text-primary hover:underline md:text-xs"
+        >
+          Salir
+        </button>
+      </div>
+    </div>
+  </div>
+</header>

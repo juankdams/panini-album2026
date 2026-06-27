@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Teams | StickerSync 2026</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Anton&amp;family=Noto+Sans:wght@400;500;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-fixed-dim": "#00decc",
+                    "error-container": "#ffdad6",
+                    "surface-container-high": "#e8e8e8",
+                    "on-error-container": "#93000a",
+                    "on-secondary-fixed-variant": "#005049",
+                    "error": "#ba1a1a",
+                    "surface-bright": "#f9f9f9",
+                    "secondary-fixed": "#24fde8",
+                    "surface-dim": "#dadada",
+                    "on-surface-variant": "#494455",
+                    "on-secondary": "#ffffff",
+                    "primary-container": "#6322e0",
+                    "inverse-primary": "#cfbdff",
+                    "primary-fixed": "#e8ddff",
+                    "outline": "#7a7487",
+                    "primary": "#4a00b7",
+                    "surface-variant": "#e2e2e2",
+                    "on-tertiary-container": "#b3d900",
+                    "surface-container-low": "#f3f3f3",
+                    "secondary": "#006a61",
+                    "on-surface": "#1b1b1b",
+                    "on-error": "#ffffff",
+                    "surface-container-lowest": "#ffffff",
+                    "tertiary-container": "#4a5c00",
+                    "tertiary-fixed": "#c8f300",
+                    "on-secondary-fixed": "#00201d",
+                    "on-background": "#1b1b1b",
+                    "secondary-container": "#24fde8",
+                    "on-primary": "#ffffff",
+                    "surface-tint": "#6c31e9",
+                    "surface": "#f9f9f9",
+                    "on-secondary-container": "#007167",
+                    "surface-container-highest": "#e2e2e2",
+                    "surface-container": "#eeeeee",
+                    "on-primary-fixed-variant": "#5300cc",
+                    "inverse-surface": "#303030",
+                    "primary-fixed-dim": "#cfbdff",
+                    "background": "#f9f9f9",
+                    "on-tertiary": "#ffffff",
+                    "on-tertiary-fixed": "#171e00",
+                    "outline-variant": "#cbc3d8",
+                    "inverse-on-surface": "#f1f1f1",
+                    "tertiary": "#364300",
+                    "on-primary-fixed": "#22005d",
+                    "on-tertiary-fixed-variant": "#3d4c00"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.25rem",
+                    "lg": "0.5rem",
+                    "xl": "0.75rem",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin-mobile": "20px",
+                    "stack-tight": "4px",
+                    "base": "8px",
+                    "margin-desktop": "40px",
+                    "gutter": "16px",
+                    "sticker-gap": "12px",
+                    "section-margin": "32px",
+                    "container-max": "1280px"
+            },
+            "fontFamily": {
+                    "headline-lg": ["Anton"],
+                    "body-lg": ["Noto Sans"],
+                    "headline-md": ["Anton"],
+                    "label-bold": ["Noto Sans"],
+                    "display-lg": ["Anton"],
+                    "headline-lg-mobile": ["Anton"],
+                    "headline-xl": ["Anton"],
+                    "body-md": ["Noto Sans"]
+            },
+            "fontSize": {
+                    "headline-lg": ["32px", {"lineHeight": "36px", "fontWeight": "400"}],
+                    "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "500"}],
+                    "headline-md": ["24px", {"lineHeight": "28px", "fontWeight": "400"}],
+                    "label-bold": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "700"}],
+                    "display-lg": ["80px", {"lineHeight": "80px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "32px", "fontWeight": "400"}],
+                    "headline-xl": ["48px", {"lineHeight": "48px", "fontWeight": "400"}],
+                    "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            font-family: 'Noto Sans', sans-serif;
+            background-color: #f9f9f9;
+        }
+        .font-anton { font-family: 'Anton', sans-serif; }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .sticker-gloss {
+            background: linear-gradient(135deg, rgba(255,255,255,0.4) 0%, rgba(255,255,255,0) 50%, rgba(255,255,255,0.1) 100%);
+        }
+        .fifa-pattern {
+            background-image: radial-gradient(#6322e0 0.5px, transparent 0.5px), radial-gradient(#6322e0 0.5px, #ffffff 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            opacity: 0.05;
+        }
+        .card-shadow {
+            box-shadow: 0 4px 0 0 rgba(99, 34, 224, 0.1);
+        }
+        .card-shadow:hover {
+            box-shadow: 0 6px 0 0 rgba(99, 34, 224, 0.2);
+            transform: translateY(-2px);
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #4a00b7;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col">
+<!-- TopNavBar -->
+<header class="sticky top-0 w-full z-50 flex justify-between items-center px-section-margin max-w-container-max mx-auto bg-surface dark:bg-surface-dim shadow-sm h-20">
+<div class="font-headline-lg text-headline-lg text-primary">StickerSync 2026</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="font-label-bold text-on-surface-variant hover:text-primary transition-colors" href="#">Dashboard</a>
+<a class="font-label-bold text-primary border-b-2 border-primary pb-1" href="#">Teams</a>
+<a class="font-label-bold text-on-surface-variant hover:text-primary transition-colors" href="#">Missing</a>
+<a class="font-label-bold text-on-surface-variant hover:text-primary transition-colors" href="#">Trade</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary scale-95 active:scale-90 transition-transform">notifications</button>
+<button class="material-symbols-outlined text-primary scale-95 active:scale-90 transition-transform">account_circle</button>
+<button class="md:hidden material-symbols-outlined text-primary">menu</button>
+</div>
+</header>
+<main class="flex-grow max-w-container-max mx-auto w-full px-section-margin py-10">
+<!-- Header Section -->
+<div class="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-2 uppercase tracking-tight">National Teams</h1>
+<p class="font-body-md text-body-md text-on-surface-variant">Track your progress across all 48 nations in the 2026 collection.</p>
+</div>
+<!-- Filter Controls -->
+<div class="flex flex-wrap gap-3">
+<div class="relative">
+<select class="appearance-none bg-surface-container-lowest border-2 border-primary/20 rounded-lg px-4 py-2 pr-10 font-label-bold text-on-surface focus:border-primary focus:ring-0 outline-none transition-all cursor-pointer">
+<option>All Groups</option>
+<option>Group A</option>
+<option>Group B</option>
+<option>Group C</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-primary">expand_more</span>
+</div>
+<div class="relative">
+<select class="appearance-none bg-surface-container-lowest border-2 border-primary/20 rounded-lg px-4 py-2 pr-10 font-label-bold text-on-surface focus:border-primary focus:ring-0 outline-none transition-all cursor-pointer">
+<option>All Regions</option>
+<option>CONCACAF</option>
+<option>CONMEBOL</option>
+<option>UEFA</option>
+<option>AFC</option>
+<option>CAF</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-primary">filter_list</span>
+</div>
+</div>
+</div>
+<!-- Progress Overview -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+<div class="bg-primary/5 p-6 rounded-xl border-l-4 border-primary flex items-center gap-4">
+<div class="w-16 h-16 rounded-full border-[6px] border-primary/20 border-t-primary flex items-center justify-center">
+<span class="font-label-bold text-primary">68%</span>
+</div>
+<div>
+<div class="font-headline-md text-primary leading-tight">Global Progress</div>
+<div class="font-body-md text-on-surface-variant">420 / 612 Stickers</div>
+</div>
+</div>
+<div class="bg-secondary-container/10 p-6 rounded-xl border-l-4 border-secondary flex items-center gap-4">
+<div class="bg-secondary-container p-3 rounded-lg">
+<span class="material-symbols-outlined text-on-secondary-container">star</span>
+</div>
+<div>
+<div class="font-headline-md text-secondary leading-tight">Legendary Finds</div>
+<div class="font-body-md text-on-surface-variant">12 Elite Stickers</div>
+</div>
+</div>
+<div class="bg-tertiary-fixed-dim/20 p-6 rounded-xl border-l-4 border-tertiary flex items-center gap-4">
+<div class="bg-tertiary-container p-3 rounded-lg">
+<span class="material-symbols-outlined text-white">swap_horiz</span>
+</div>
+<div>
+<div class="font-headline-md text-tertiary leading-tight">Active Trades</div>
+<div class="font-body-md text-on-surface-variant">8 Pending Requests</div>
+</div>
+</div>
+</div>
+<!-- Teams Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-sticker-gap">
+<!-- Mexico Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCyz-dEUs9sT_1y7H68jqWA2-tpA_cLLk6rRW8ipknUwLQwmX5yX-tJeOAIIDQYzECrVZLPseKqJ9mX36-g5tmwo9admUSVtePxNUTmCrxdwgShsQOyQn1L6j4a4nQXMXnSr9TEz2mVqaH0Shy_sJyjCiN7G__o1EJwwGOeVOf95AedfHLJNIoLm2sztPbnseQuJC-l9g34W05Zj9o_2feO9DCe1mnr4P8BgBxcNP9TF9G3wpHwoDkjDLxjI2Kxg6IhcE1_CIREZww"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">CONCACAF</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">Mexico</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group A</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">14/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed-dim h-full transition-all duration-1000" style="width: 70%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- USA Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVtkY5twr6Ot8grhDq5NjmFvnFt2fmlr_EV94x8dbgfMgijl6QroQ57UjgyvMvDCA3Wt5sKonHZCRpDHNMz-CtUUulGXaqRKG-RGV74IEfbw8hZwddZy3k1kA44SzpWRp2DWUnkIdqHqnLS4HEIZK6hmq1Jo3tXSHgbRgYtV5dxZwP0kyBhZUzsf62elHd7TuFkO7C9G-_3gH1maggiX7f3esWaSx9mrbOEzrHQlGiLXLMQ67VlVwbFIO5qxXbNoPbRvzkvW9x2Cs"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">CONCACAF</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">USA</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group A</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">18/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-primary-container h-full transition-all duration-1000" style="width: 90%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Argentina Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC04eIUvG6HrIfkYbpioo_2yjRSnt0_FQ9VsYWKIIyOZ8ZPlFEwU3wSme7C3ujufPEVtjmW6foKqd2AjonjRmmpbkNIfbzUcn07-aTeZjCg2UWCYkZ2N68JZDVMvsmoKmP5CJWgRKSssSm7rTJba57_Igxg_jU-5XStFkTtlZt7ZZTwB42X225Z7PLQNXMr_lXSu_65yRVhoDiXtRpA7ChjE9GPscr5RX7uBZL5j7qeQH9Z4NwLzAt2a9OQEpcM0z9Rx9UFRApZhko"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">CONMEBOL</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">Argentina</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group C</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">20/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-tertiary-fixed-dim h-full transition-all duration-1000" style="width: 100%;"></div>
+</div>
+</div>
+<div class="mt-3 flex items-center gap-1 text-tertiary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">workspace_premium</span>
+<span class="font-label-bold text-xs">COMPLETED</span>
+</div>
+</div>
+</div>
+<!-- France Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAMdqLKMSczvXOXVt4PS00vk0CVpkvVDtUT794MfmYvi-EZnyZLHzFxyDMooJ_RF-OL4prrXsvSPjWNMagNblp6vyqCJUOHvu0IMpF5W4aOQDSCzAaUO9jKqjqyxmsklIaIQV0XzHsQGEaZkln0J5VM8lxWXkolVN0fiyzvgsH8_LHULA3JONNcwLc4JaMG9i2FunVphjuzfOmSfAznSaIPuvTV2xCsU52fO5SpvylWKOjTO36ssuEsZr5Ok-naEOs-7ot3734Rw3I"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">UEFA</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">France</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group D</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">8/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-secondary-fixed h-full transition-all duration-1000" style="width: 40%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Canada Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuoG_2QgqW4ib3voJGIqZ4FVBKCJqEGSwXzrPdlYPC5lv1ufv5k5w143O8e0Kp7k0A_X8upa5nqM3tHtTy8J_Oa9Ks-dyUFekAQq_B6N51brR_lVcdxdQsaNmQsexEVdnNkUXQu0gEOuKCMVKx9HGh_NV9XIHJyuYZFQQ-hrh_7FoSZJWcJX8m0rzAOg_cDna4TOgUEiZ9ky8k226T0nNU2GPbB4ZPnjTjpOZHTL7N8Uds1I9uxXMZA4b1xHs-YGyIbieThS5zbXg"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">CONCACAF</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">Canada</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group B</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">12/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-error h-full transition-all duration-1000" style="width: 60%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Brazil Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGZ4DGhtRpWPjuJmq3Rpgkwq8XeixF4wGuXheuMum8EP2OzTZxgBZmdljxb2XWTy-67mz2paQYJSten8Gaa_Qh-CiaZycde8eUU9PS5VzdJw1LkXNTgCLCjHZyyZRs0Ht9fLmgm9LvMuXjZO9Evu9lOeWWg-5r7fS_QVl7OWHQ4cmkyKDAv8mGe2AuzZflyeLz-dzU1y1ROOoCpLdG4cuZhSUW4IjR3BLhps8-R_HpK9A11yDbeF-Iwe1fiy3PGv7B6yIpD1GkZrQ"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">CONMEBOL</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">Brazil</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group E</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">5/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-tertiary h-full transition-all duration-1000" style="width: 25%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- England Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB48oibzbC3ayqSjUoBtomNYBI91bApbiZ9kG6ne-u5k3EqZigYZT8C30-_JtYpOs70FiLzMeQeqe7QbVdFgTCvMV7j4HfEMqucOouuGv-259O7uiHa_SB4GKjAqq_ucl4qXXS1blqINbh7Faf_SfupOPJVCX3Me0UwG5JTzGXqT2Z8Dx7R2wTPCWx5-sPidmnStdPQL3xq2Eucnb28nQE3hq07aLXu_pQeOgaCWkeeOQgG3ytnFswN26KWFX0XfZmNEImpHBMcWy8"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">UEFA</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">England</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group B</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">16/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-primary h-full transition-all duration-1000" style="width: 80%;"></div>
+</div>
+</div>
+</div>
+</div>
+<!-- Japan Card -->
+<div class="bg-white rounded-xl overflow-hidden card-shadow transition-all group cursor-pointer relative border border-outline-variant/30">
+<div class="absolute inset-0 fifa-pattern pointer-events-none"></div>
+<div class="h-32 w-full relative overflow-hidden bg-primary/5">
+<img class="w-full h-full object-cover opacity-80 group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAvPmj5GoxQ1EaLiFbgmI5jGMT5CaoDGyjwBKwWR4CFDZP8H79XijtDfTOeiQDDK2hveVKZR08IYNq6dHH3Oj1yb09JPi4t5mEPCOLCEL0-zjcRn_8pyFWs_lFjt6X9p6e3tdDVyHmt2YYDQlV1HHNzAHHgL5sg8pQ-Lsd4BLGjy4CxT1HAV8pNt_lt1RcE45kpAlpmqqw9_FwzgYtNbvUV2s4YjRdaDfTGGq0RqVb7KPRH2E-YvwobdtoCvqDtcSxK1UnGGVBCHk"/>
+<div class="absolute inset-0 sticker-gloss"></div>
+<div class="absolute bottom-3 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full flex items-center gap-2">
+<span class="font-label-bold text-primary uppercase text-[10px]">AFC</span>
+</div>
+</div>
+<div class="p-5 relative">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-headline-md text-on-surface uppercase">Japan</h3>
+<span class="font-label-bold text-primary bg-primary/10 px-2 py-1 rounded-full text-xs">Group F</span>
+</div>
+<div class="space-y-2">
+<div class="flex justify-between font-label-bold text-xs uppercase tracking-wider">
+<span class="text-on-surface-variant">Collected</span>
+<span class="text-on-surface">9/20</span>
+</div>
+<div class="w-full bg-surface-container-high h-2.5 rounded-full overflow-hidden">
+<div class="bg-primary-fixed-dim h-full transition-all duration-1000" style="width: 45%;"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Load More Section -->
+<div class="mt-16 flex flex-col items-center">
+<p class="font-label-bold text-on-surface-variant mb-4 text-xs uppercase tracking-widest">Showing 8 of 48 Teams</p>
+<button class="bg-primary text-on-primary font-headline-md px-8 py-3 rounded-xl flex items-center gap-2 shadow-lg hover:bg-primary-container active:scale-95 transition-all uppercase tracking-tight">
+                Load More Teams
+                <span class="material-symbols-outlined">expand_more</span>
+</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-lowest py-base px-section-margin border-t border-outline-variant mt-20">
+<div class="max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-6 py-6">
+<div class="font-headline-lg text-primary uppercase">StickerSync 2026</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-bold text-xs text-on-surface-variant hover:text-primary transition-colors uppercase" href="#">Privacy Policy</a>
+<a class="font-label-bold text-xs text-on-surface-variant hover:text-primary transition-colors uppercase" href="#">Terms of Service</a>
+<a class="font-label-bold text-xs text-on-surface-variant hover:text-primary transition-colors uppercase" href="#">Support</a>
+</div>
+<div class="font-label-bold text-[10px] text-on-surface-variant text-center md:text-right uppercase opacity-60">
+                © 2026 FIFA World Cup Panini Collection. Official Licensed Product.
+            </div>
+</div>
+</footer>
+<!-- Floating Action Button for Adding Stickers -->
+<button class="fixed bottom-8 right-8 w-16 h-16 bg-primary text-on-primary rounded-full shadow-2xl flex items-center justify-center hover:scale-110 active:scale-90 transition-transform z-40">
+<span class="material-symbols-outlined text-[32px]">add</span>
+</button>
+<script>
+    document.querySelectorAll('.card-shadow').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            // Hover effect handled by Tailwind
+        });
+    });
+</script>
+</body></html>

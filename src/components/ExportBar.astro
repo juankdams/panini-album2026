@@ -1,0 +1,27 @@
+---
+interface Props {
+  exportType: 'missing' | 'duplicates';
+}
+
+const { exportType } = Astro.props;
+const label = exportType === 'missing' ? 'faltantes' : 'repetidas';
+---
+
+<div class="flex flex-wrap gap-3" data-export-bar={exportType}>
+  <button
+    type="button"
+    class="bg-primary px-6 py-3 font-anton text-sm uppercase text-on-primary high-contrast-border transition-colors hover:bg-primary-container"
+    data-export-copy={exportType}
+  >
+    Copiar {label}
+  </button>
+  <button
+    type="button"
+    class="flex items-center gap-2 bg-tertiary-fixed px-6 py-3 font-anton text-sm uppercase text-on-tertiary-fixed high-contrast-border transition-colors hover:bg-tertiary-fixed-dim"
+    data-export-whatsapp={exportType}
+  >
+    <span class="material-symbols-outlined text-lg">send</span>
+    WhatsApp
+  </button>
+  <span class="hidden self-center text-sm font-bold text-secondary" data-export-feedback></span>
+</div>

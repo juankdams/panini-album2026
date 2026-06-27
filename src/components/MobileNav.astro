@@ -1,0 +1,38 @@
+---
+const path = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Inicio', icon: 'home' },
+  { href: '/equipos', label: 'Equipos', icon: 'groups' },
+  { href: '/album', label: 'Álbum', icon: 'collections_bookmark' },
+  { href: '/faltantes', label: 'Faltantes', icon: 'checklist' },
+  { href: '/repetidas', label: 'Repetidas', icon: 'sync' },
+];
+
+function isActive(href: string) {
+  if (href === '/') return path === '/';
+  return path.startsWith(href);
+}
+---
+
+<nav
+  class="fixed bottom-0 left-0 right-0 z-50 border-t-4 border-on-surface bg-surface-container-lowest md:hidden safe-bottom"
+  aria-label="Navegación principal"
+>
+  <div class="grid grid-cols-5">
+    {
+      links.map((link) => (
+        <a
+          href={link.href}
+          class:list={[
+            'flex min-h-11 flex-col items-center justify-center gap-0.5 px-1 py-2 text-[9px] font-bold uppercase tracking-wide transition-colors',
+            isActive(link.href) ? 'bg-primary/10 text-primary' : 'text-on-surface-variant',
+          ]}
+        >
+          <span class="material-symbols-outlined text-xl">{link.icon}</span>
+          <span class="leading-none">{link.label}</span>
+        </a>
+      ))
+    }
+  </div>
+</nav>

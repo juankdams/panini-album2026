@@ -1,0 +1,8802 @@
+[
+  {
+    "id": "apertura-0",
+    "code": "LOGO",
+    "label": "Logo Panini",
+    "section": "apertura",
+    "number": 0,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-1",
+    "code": "FWC1",
+    "label": "Emblema Oficial",
+    "section": "apertura",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-2",
+    "code": "FWC2",
+    "label": "Emblema Oficial",
+    "section": "apertura",
+    "number": 2,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-3",
+    "code": "FWC3",
+    "label": "Mascotas Oficiales",
+    "section": "apertura",
+    "number": 3,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-4",
+    "code": "FWC4",
+    "label": "Eslogan Oficial",
+    "section": "apertura",
+    "number": 4,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-5",
+    "code": "FWC5",
+    "label": "Balón Oficial",
+    "section": "apertura",
+    "number": 5,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-6",
+    "code": "FWC6",
+    "label": "Canada - Sedes y Ciudades",
+    "section": "apertura",
+    "number": 6,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-7",
+    "code": "FWC7",
+    "label": "Mexico - Sedes y Ciudades",
+    "section": "apertura",
+    "number": 7,
+    "kind": "foil"
+  },
+  {
+    "id": "apertura-8",
+    "code": "FWC8",
+    "label": "Estados Unidos - Sedes y Ciudades",
+    "section": "apertura",
+    "number": 8,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-9",
+    "code": "FWC9",
+    "label": "Italia 1934",
+    "section": "museum",
+    "number": 9,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-10",
+    "code": "FWC10",
+    "label": "Uruguay 1950",
+    "section": "museum",
+    "number": 10,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-11",
+    "code": "FWC11",
+    "label": "Alemania Occidental 1954",
+    "section": "museum",
+    "number": 11,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-12",
+    "code": "FWC12",
+    "label": "Brasil 1962",
+    "section": "museum",
+    "number": 12,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-13",
+    "code": "FWC13",
+    "label": "Alemania Occidental 1974",
+    "section": "museum",
+    "number": 13,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-14",
+    "code": "FWC14",
+    "label": "Argentina 1986",
+    "section": "museum",
+    "number": 14,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-15",
+    "code": "FWC15",
+    "label": "Brasil 1994",
+    "section": "museum",
+    "number": 15,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-16",
+    "code": "FWC16",
+    "label": "Brasil 2002",
+    "section": "museum",
+    "number": 16,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-17",
+    "code": "FWC17",
+    "label": "Italia 2006",
+    "section": "museum",
+    "number": 17,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-18",
+    "code": "FWC18",
+    "label": "Alemania 2014",
+    "section": "museum",
+    "number": 18,
+    "kind": "foil"
+  },
+  {
+    "id": "museum-19",
+    "code": "FWC19",
+    "label": "Argentina 2022",
+    "section": "museum",
+    "number": 19,
+    "kind": "foil"
+  },
+  {
+    "id": "mexico-1",
+    "code": "MEX1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "mexico-2",
+    "code": "MEX2",
+    "label": "Luis Malagón",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-3",
+    "code": "MEX3",
+    "label": "Johan Vasquez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-4",
+    "code": "MEX4",
+    "label": "Jorge Sánchez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-5",
+    "code": "MEX5",
+    "label": "Cesar Montes",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-6",
+    "code": "MEX6",
+    "label": "Jesus Gallardo",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-7",
+    "code": "MEX7",
+    "label": "Israel Reyes",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-8",
+    "code": "MEX8",
+    "label": "Diego Lainez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-9",
+    "code": "MEX9",
+    "label": "Carlos Rodriguez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-10",
+    "code": "MEX10",
+    "label": "Edson Alvarez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-11",
+    "code": "MEX11",
+    "label": "Orbelin Pineda",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-12",
+    "code": "MEX12",
+    "label": "Marcel Ruiz",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-13",
+    "code": "MEX13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "mexico-14",
+    "code": "MEX14",
+    "label": "�0rick Sánchez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-15",
+    "code": "MEX15",
+    "label": "Hirving Lozano",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-16",
+    "code": "MEX16",
+    "label": "Santiago Giménez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-17",
+    "code": "MEX17",
+    "label": "Raúl Jiménez",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-18",
+    "code": "MEX18",
+    "label": "Alexis Vega",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-19",
+    "code": "MEX19",
+    "label": "Roberto Alvarado",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "mexico-20",
+    "code": "MEX20",
+    "label": "Cesar Huerta",
+    "section": "team",
+    "teamId": "mexico",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-1",
+    "code": "RSA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "sudafrica-2",
+    "code": "RSA2",
+    "label": "Ronwen Williams",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-3",
+    "code": "RSA3",
+    "label": "Sipho Chaine",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-4",
+    "code": "RSA4",
+    "label": "Aubrey Modiba",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-5",
+    "code": "RSA5",
+    "label": "Samukele Kabini",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-6",
+    "code": "RSA6",
+    "label": "Mbekezeli Mbokazi",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-7",
+    "code": "RSA7",
+    "label": "Khulumani Ndamane",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-8",
+    "code": "RSA8",
+    "label": "Siyabonga Ngezana",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-9",
+    "code": "RSA9",
+    "label": "Khuliso Mudau",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-10",
+    "code": "RSA10",
+    "label": "Nkosinathi Sibisi",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-11",
+    "code": "RSA11",
+    "label": "Teboho Mokoena",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-12",
+    "code": "RSA12",
+    "label": "Thalente Mbatha",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-13",
+    "code": "RSA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "sudafrica-14",
+    "code": "RSA14",
+    "label": "Bathasi Aubaas",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-15",
+    "code": "RSA15",
+    "label": "Yaya Sithole",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-16",
+    "code": "RSA16",
+    "label": "Sipho Mbule",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-17",
+    "code": "RSA17",
+    "label": "Lyle Foster",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-18",
+    "code": "RSA18",
+    "label": "Iqraam Rayners",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-19",
+    "code": "RSA19",
+    "label": "Mohau Nkota",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "sudafrica-20",
+    "code": "RSA20",
+    "label": "Oswin Appollis",
+    "section": "team",
+    "teamId": "sudafrica",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-1",
+    "code": "KOR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "corea-del-sur-2",
+    "code": "KOR2",
+    "label": "Hyeon-woo Jo",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-3",
+    "code": "KOR3",
+    "label": "Seung-Gyu Kim",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-4",
+    "code": "KOR4",
+    "label": "Min-jae Kim",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-5",
+    "code": "KOR5",
+    "label": "Yu-min Cho",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-6",
+    "code": "KOR6",
+    "label": "Young-woo Seol",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-7",
+    "code": "KOR7",
+    "label": "Han-beom Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-8",
+    "code": "KOR8",
+    "label": "Tae-seok Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-9",
+    "code": "KOR9",
+    "label": "Myung-jae Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-10",
+    "code": "KOR10",
+    "label": "Jae-sung Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-11",
+    "code": "KOR11",
+    "label": "In-beom Hwang",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-12",
+    "code": "KOR12",
+    "label": "Kang-in Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-13",
+    "code": "KOR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "corea-del-sur-14",
+    "code": "KOR14",
+    "label": "Seung-ho Paik",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-15",
+    "code": "KOR15",
+    "label": "Jens Castrop",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-16",
+    "code": "KOR16",
+    "label": "Dongg-yeong Lee",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-17",
+    "code": "KOR17",
+    "label": "Gue-sung Cho",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-18",
+    "code": "KOR18",
+    "label": "Heung-min Son",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-19",
+    "code": "KOR19",
+    "label": "Hee-chan Hwang",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "corea-del-sur-20",
+    "code": "KOR20",
+    "label": "Hyeon-Gyu Oh",
+    "section": "team",
+    "teamId": "corea-del-sur",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-1",
+    "code": "CZE1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "chequia-2",
+    "code": "CZE2",
+    "label": "Matej Kovar",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-3",
+    "code": "CZE3",
+    "label": "Jindrich Stanek",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-4",
+    "code": "CZE4",
+    "label": "Ladislav Krejci",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-5",
+    "code": "CZE5",
+    "label": "Vladimir Coufal",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-6",
+    "code": "CZE6",
+    "label": "Jaroslav Zeleny",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-7",
+    "code": "CZE7",
+    "label": "Tomas Holes",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-8",
+    "code": "CZE8",
+    "label": "David Zima",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-9",
+    "code": "CZE9",
+    "label": "Michal Sadilek",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-10",
+    "code": "CZE10",
+    "label": "Lukas Provod",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-11",
+    "code": "CZE11",
+    "label": "Lukas Cerv",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-12",
+    "code": "CZE12",
+    "label": "Tomas Soucek",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-13",
+    "code": "CZE13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "chequia-14",
+    "code": "CZE14",
+    "label": "Pavel Sulc",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-15",
+    "code": "CZE15",
+    "label": "Matej Vydra",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-16",
+    "code": "CZE16",
+    "label": "Vasil Kusej",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-17",
+    "code": "CZE17",
+    "label": "Tomas Chory",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-18",
+    "code": "CZE18",
+    "label": "Vaclav Cerny",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-19",
+    "code": "CZE19",
+    "label": "Adam Hlozek",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "chequia-20",
+    "code": "CZE20",
+    "label": "Patrik Schick",
+    "section": "team",
+    "teamId": "chequia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "canada-1",
+    "code": "CAN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "canada",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "canada-2",
+    "code": "CAN2",
+    "label": "Dayne St.Clair",
+    "section": "team",
+    "teamId": "canada",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "canada-3",
+    "code": "CAN3",
+    "label": "Alphonso Davies",
+    "section": "team",
+    "teamId": "canada",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "canada-4",
+    "code": "CAN4",
+    "label": "Alistair Johnston",
+    "section": "team",
+    "teamId": "canada",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "canada-5",
+    "code": "CAN5",
+    "label": "Samuel Adekugbe",
+    "section": "team",
+    "teamId": "canada",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "canada-6",
+    "code": "CAN6",
+    "label": "Riche Larvea",
+    "section": "team",
+    "teamId": "canada",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "canada-7",
+    "code": "CAN7",
+    "label": "Derek Cornelius",
+    "section": "team",
+    "teamId": "canada",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "canada-8",
+    "code": "CAN8",
+    "label": "Moïse Bombito",
+    "section": "team",
+    "teamId": "canada",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "canada-9",
+    "code": "CAN9",
+    "label": "Kamal Miller",
+    "section": "team",
+    "teamId": "canada",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "canada-10",
+    "code": "CAN10",
+    "label": "Stephen Eustáquio",
+    "section": "team",
+    "teamId": "canada",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "canada-11",
+    "code": "CAN11",
+    "label": "Ismaël Koné",
+    "section": "team",
+    "teamId": "canada",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "canada-12",
+    "code": "CAN12",
+    "label": "Jonathan Osorio",
+    "section": "team",
+    "teamId": "canada",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "canada-13",
+    "code": "CAN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "canada",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "canada-14",
+    "code": "CAN14",
+    "label": "Jacob Shaffelburg",
+    "section": "team",
+    "teamId": "canada",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "canada-15",
+    "code": "CAN15",
+    "label": "Mathieu Choinière",
+    "section": "team",
+    "teamId": "canada",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "canada-16",
+    "code": "CAN16",
+    "label": "Niko Sigur",
+    "section": "team",
+    "teamId": "canada",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "canada-17",
+    "code": "CAN17",
+    "label": "Tajon Buchanan",
+    "section": "team",
+    "teamId": "canada",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "canada-18",
+    "code": "CAN18",
+    "label": "Liam Millar",
+    "section": "team",
+    "teamId": "canada",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "canada-19",
+    "code": "CAN19",
+    "label": "Cyle Larin",
+    "section": "team",
+    "teamId": "canada",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "canada-20",
+    "code": "CAN20",
+    "label": "Jonathan David",
+    "section": "team",
+    "teamId": "canada",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-1",
+    "code": "BIH1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "bosnia-2",
+    "code": "BIH2",
+    "label": "Nikola Vasilj",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-3",
+    "code": "BIH3",
+    "label": "Amer Dedic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-4",
+    "code": "BIH4",
+    "label": "Sead Kolasinac",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-5",
+    "code": "BIH5",
+    "label": "Tarik Muharemovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-6",
+    "code": "BIH6",
+    "label": "Nihad Mujakic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-7",
+    "code": "BIH7",
+    "label": "Nikola Katic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-8",
+    "code": "BIH8",
+    "label": "Amir Hadziahmetovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-9",
+    "code": "BIH9",
+    "label": "Benjamin Tahirovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-10",
+    "code": "BIH10",
+    "label": "Armin Gigovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-11",
+    "code": "BIH11",
+    "label": "Ivan Sunjic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-12",
+    "code": "BIH12",
+    "label": "Ivan Basic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-13",
+    "code": "BIH13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "bosnia-14",
+    "code": "BIH14",
+    "label": "Dzenis Burnic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-15",
+    "code": "BIH15",
+    "label": "Esmir Bajraktarevic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-16",
+    "code": "BIH16",
+    "label": "Amar Memic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-17",
+    "code": "BIH17",
+    "label": "Ermedin Demirovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-18",
+    "code": "BIH18",
+    "label": "Edin Dzeko",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-19",
+    "code": "BIH19",
+    "label": "Samed Bazdar",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "bosnia-20",
+    "code": "BIH20",
+    "label": "Haris Tabakovic",
+    "section": "team",
+    "teamId": "bosnia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-1",
+    "code": "QAT1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "qatar-2",
+    "code": "QAT2",
+    "label": "Meshaal Barsham",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-3",
+    "code": "QAT3",
+    "label": "Sultan Albrake",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-4",
+    "code": "QAT4",
+    "label": "Lucas Mendes",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-5",
+    "code": "QAT5",
+    "label": "Homam Ahmed",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-6",
+    "code": "QAT6",
+    "label": "Boualem Khoukhi",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-7",
+    "code": "QAT7",
+    "label": "Pedro Miguel",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-8",
+    "code": "QAT8",
+    "label": "Tarek Salman",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-9",
+    "code": "QAT9",
+    "label": "Mohamed Al-Mannai",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-10",
+    "code": "QAT10",
+    "label": "Karim Boudiaf",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-11",
+    "code": "QAT11",
+    "label": "Assim Madibo",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-12",
+    "code": "QAT12",
+    "label": "Ahmed Fatehi",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-13",
+    "code": "QAT13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "qatar-14",
+    "code": "QAT14",
+    "label": "Mohammed Waad",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-15",
+    "code": "QAT15",
+    "label": "Abdulaziz Hatem",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-16",
+    "code": "QAT16",
+    "label": "Hassan Al-Haydos",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-17",
+    "code": "QAT17",
+    "label": "Edmilson Junior",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-18",
+    "code": "QAT18",
+    "label": "Akram Hassan Afif",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-19",
+    "code": "QAT19",
+    "label": "Ahmed Al Ganehi",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "qatar-20",
+    "code": "QAT20",
+    "label": "Almoez Ali",
+    "section": "team",
+    "teamId": "qatar",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-1",
+    "code": "SUI1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "suiza-2",
+    "code": "SUI2",
+    "label": "Gregor Kobel",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-3",
+    "code": "SUI3",
+    "label": "Yvon Mvogo",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-4",
+    "code": "SUI4",
+    "label": "Manuel Akanji",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-5",
+    "code": "SUI5",
+    "label": "Ricardo Rodriguez",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-6",
+    "code": "SUI6",
+    "label": "Nico Elvedi",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-7",
+    "code": "SUI7",
+    "label": "Aurèle Amenda",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-8",
+    "code": "SUI8",
+    "label": "Silvan Widmer",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-9",
+    "code": "SUI9",
+    "label": "Granit Xhaka",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-10",
+    "code": "SUI10",
+    "label": "Denis Zakaria",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-11",
+    "code": "SUI11",
+    "label": "Remo Freuler",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-12",
+    "code": "SUI12",
+    "label": "Fabian Rieder",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-13",
+    "code": "SUI13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "suiza-14",
+    "code": "SUI14",
+    "label": "Ardon Jashari",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-15",
+    "code": "SUI15",
+    "label": "Johan Manzambi",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-16",
+    "code": "SUI16",
+    "label": "Michel Aebischer",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-17",
+    "code": "SUI17",
+    "label": "Breel Embolo",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-18",
+    "code": "SUI18",
+    "label": "Ruben Vargas",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-19",
+    "code": "SUI19",
+    "label": "Dan Ndoye",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "suiza-20",
+    "code": "SUI20",
+    "label": "Zeki Amdouni",
+    "section": "team",
+    "teamId": "suiza",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-1",
+    "code": "BRA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "brasil-2",
+    "code": "BRA2",
+    "label": "Alisson",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-3",
+    "code": "BRA3",
+    "label": "Bento",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-4",
+    "code": "BRA4",
+    "label": "Marquinhos",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-5",
+    "code": "BRA5",
+    "label": "�0der Militão",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-6",
+    "code": "BRA6",
+    "label": "Gabriel Magalhães",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-7",
+    "code": "BRA7",
+    "label": "Danilo",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-8",
+    "code": "BRA8",
+    "label": "Wesley",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-9",
+    "code": "BRA9",
+    "label": "Lucas Paquetá",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-10",
+    "code": "BRA10",
+    "label": "Casemiro",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-11",
+    "code": "BRA11",
+    "label": "Bruno Guimarães",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-12",
+    "code": "BRA12",
+    "label": "Luiz Henrique",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-13",
+    "code": "BRA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "brasil-14",
+    "code": "BRA14",
+    "label": "Vinicius Júnior",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-15",
+    "code": "BRA15",
+    "label": "Rodrygo",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-16",
+    "code": "BRA16",
+    "label": "João Pedro",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-17",
+    "code": "BRA17",
+    "label": "Matheus Cunha",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-18",
+    "code": "BRA18",
+    "label": "Gabriel Martinelli",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-19",
+    "code": "BRA19",
+    "label": "Raphinha",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "brasil-20",
+    "code": "BRA20",
+    "label": "Estévão",
+    "section": "team",
+    "teamId": "brasil",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-1",
+    "code": "MAR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "marruecos-2",
+    "code": "MAR2",
+    "label": "Yassine Bounou",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-3",
+    "code": "MAR3",
+    "label": "Munir El Kajoui",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-4",
+    "code": "MAR4",
+    "label": "Achraf Hakimi",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-5",
+    "code": "MAR5",
+    "label": "Noussair Mazraoui",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-6",
+    "code": "MAR6",
+    "label": "Nayef Aguerd",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-7",
+    "code": "MAR7",
+    "label": "Roman Saiss",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-8",
+    "code": "MAR8",
+    "label": "Jawad El Yamio",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-9",
+    "code": "MAR9",
+    "label": "Adam Masina",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-10",
+    "code": "MAR10",
+    "label": "Sofyan Amrabat",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-11",
+    "code": "MAR11",
+    "label": "Azzedine Ounahi",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-12",
+    "code": "MAR12",
+    "label": "Eliesse Ben Seghir",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-13",
+    "code": "MAR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "marruecos-14",
+    "code": "MAR14",
+    "label": "Bilal El Khannouss",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-15",
+    "code": "MAR15",
+    "label": "Ismael Saibari",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-16",
+    "code": "MAR16",
+    "label": "Youssef En-Nesyri",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-17",
+    "code": "MAR17",
+    "label": "Abde Ezzalzouli",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-18",
+    "code": "MAR18",
+    "label": "Soufiane Rahimi",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-19",
+    "code": "MAR19",
+    "label": "Brahim Diaz",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "marruecos-20",
+    "code": "MAR20",
+    "label": "Ayoub El Kaabi",
+    "section": "team",
+    "teamId": "marruecos",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-1",
+    "code": "HAI1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "haiti-2",
+    "code": "HAI2",
+    "label": "Johny Placide",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-3",
+    "code": "HAI3",
+    "label": "Carlens Arcus",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-4",
+    "code": "HAI4",
+    "label": "Martin Expérience",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-5",
+    "code": "HAI5",
+    "label": "Jean-Kevin Duverne",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-6",
+    "code": "HAI6",
+    "label": "Ricardo Adé",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-7",
+    "code": "HAI7",
+    "label": "Duke Lacroix",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-8",
+    "code": "HAI8",
+    "label": "Garven Metusala",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-9",
+    "code": "HAI9",
+    "label": "Hannes Delcroix",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-10",
+    "code": "HAI10",
+    "label": "Leverton Pierre",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-11",
+    "code": "HAI11",
+    "label": "Danley Jean Jacques",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-12",
+    "code": "HAI12",
+    "label": "Jean-Ricner Bellegarde",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-13",
+    "code": "HAI13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "haiti-14",
+    "code": "HAI14",
+    "label": "Christopher Attys",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-15",
+    "code": "HAI15",
+    "label": "Derrick Etienne Jr",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-16",
+    "code": "HAI16",
+    "label": "Josue Casimir",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-17",
+    "code": "HAI17",
+    "label": "Ruben Providence",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-18",
+    "code": "HAI18",
+    "label": "Duckens Nazon",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-19",
+    "code": "HAI19",
+    "label": "Louicius Deedson",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "haiti-20",
+    "code": "HAI20",
+    "label": "Frantzdy Pierrot",
+    "section": "team",
+    "teamId": "haiti",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-1",
+    "code": "SCO1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "escocia-2",
+    "code": "SCO2",
+    "label": "Angus Gunn",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-3",
+    "code": "SCO3",
+    "label": "Jack Hendry",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-4",
+    "code": "SCO4",
+    "label": "Kieran Tierney",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-5",
+    "code": "SCO5",
+    "label": "Aaron Hickey",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-6",
+    "code": "SCO6",
+    "label": "Andrew Robertson",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-7",
+    "code": "SCO7",
+    "label": "Scott McKenna",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-8",
+    "code": "SCO8",
+    "label": "John Souttar",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-9",
+    "code": "SCO9",
+    "label": "Anthony Ralston",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-10",
+    "code": "SCO10",
+    "label": "Grant Hanley",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-11",
+    "code": "SCO11",
+    "label": "Scott McTominay",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-12",
+    "code": "SCO12",
+    "label": "Billy Gilmour",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-13",
+    "code": "SCO13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "escocia-14",
+    "code": "SCO14",
+    "label": "Lewis Ferguson",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-15",
+    "code": "SCO15",
+    "label": "Ryan Christie",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-16",
+    "code": "SCO16",
+    "label": "Kenny McLean",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-17",
+    "code": "SCO17",
+    "label": "John McGinn",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-18",
+    "code": "SCO18",
+    "label": "Lyndon Dykes",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-19",
+    "code": "SCO19",
+    "label": "Che Adams",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "escocia-20",
+    "code": "SCO20",
+    "label": "Ben Gannon-Doak",
+    "section": "team",
+    "teamId": "escocia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-1",
+    "code": "USA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "estados-unidos-2",
+    "code": "USA2",
+    "label": "Math Freese",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-3",
+    "code": "USA3",
+    "label": "Chris Richards",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-4",
+    "code": "USA4",
+    "label": "Tim Ream",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-5",
+    "code": "USA5",
+    "label": "Mark McKenzie",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-6",
+    "code": "USA6",
+    "label": "Alex Freeman",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-7",
+    "code": "USA7",
+    "label": "Antonee Robinson",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-8",
+    "code": "USA8",
+    "label": "Tyler Adams",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-9",
+    "code": "USA9",
+    "label": "Tanner Tessmann",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-10",
+    "code": "USA10",
+    "label": "Weston McKenny",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-11",
+    "code": "USA11",
+    "label": "Christian Roldan",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-12",
+    "code": "USA12",
+    "label": "Timothy Weah",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-13",
+    "code": "USA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "estados-unidos-14",
+    "code": "USA14",
+    "label": "Diego Luna",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-15",
+    "code": "USA15",
+    "label": "Malik Tillman",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-16",
+    "code": "USA16",
+    "label": "Christian Pulisic",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-17",
+    "code": "USA17",
+    "label": "Brenden Aaronson",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-18",
+    "code": "USA18",
+    "label": "Ricardo Pepi",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-19",
+    "code": "USA19",
+    "label": "Haji Wright",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "estados-unidos-20",
+    "code": "USA20",
+    "label": "Folarin Balogun",
+    "section": "team",
+    "teamId": "estados-unidos",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-1",
+    "code": "PAR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "paraguay-2",
+    "code": "PAR2",
+    "label": "Roberto Fernandez",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-3",
+    "code": "PAR3",
+    "label": "Orlando Gill",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-4",
+    "code": "PAR4",
+    "label": "Gustavo Gomez",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-5",
+    "code": "PAR5",
+    "label": "Fabián Balbuena",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-6",
+    "code": "PAR6",
+    "label": "Juan José Cáceres",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-7",
+    "code": "PAR7",
+    "label": "Omar Alderete",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-8",
+    "code": "PAR8",
+    "label": "Junior Alonso",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-9",
+    "code": "PAR9",
+    "label": "Mathías Villasanti",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-10",
+    "code": "PAR10",
+    "label": "Diego Gomez",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-11",
+    "code": "PAR11",
+    "label": "Damián Bobadilla",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-12",
+    "code": "PAR12",
+    "label": "Andres Cubas",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-13",
+    "code": "PAR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "paraguay-14",
+    "code": "PAR14",
+    "label": "Matias Galarza Fonda",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-15",
+    "code": "PAR15",
+    "label": "Julio Enciso",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-16",
+    "code": "PAR16",
+    "label": "Alejandro Romero Gamarra",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-17",
+    "code": "PAR17",
+    "label": "Miguel Almirón",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-18",
+    "code": "PAR18",
+    "label": "Ramon Sosa",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-19",
+    "code": "PAR19",
+    "label": "Angel Romero",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "paraguay-20",
+    "code": "PAR20",
+    "label": "Antonio Sanabria",
+    "section": "team",
+    "teamId": "paraguay",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "australia-1",
+    "code": "AUS1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "australia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "australia-2",
+    "code": "AUS2",
+    "label": "Mathew Ryan",
+    "section": "team",
+    "teamId": "australia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "australia-3",
+    "code": "AUS3",
+    "label": "Joe Gauci",
+    "section": "team",
+    "teamId": "australia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "australia-4",
+    "code": "AUS4",
+    "label": "Harry Souttar",
+    "section": "team",
+    "teamId": "australia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "australia-5",
+    "code": "AUS5",
+    "label": "Alessandro Circati",
+    "section": "team",
+    "teamId": "australia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "australia-6",
+    "code": "AUS6",
+    "label": "Jordan Bos",
+    "section": "team",
+    "teamId": "australia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "australia-7",
+    "code": "AUS7",
+    "label": "Aziz Behich",
+    "section": "team",
+    "teamId": "australia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "australia-8",
+    "code": "AUS8",
+    "label": "Cameron Burgess",
+    "section": "team",
+    "teamId": "australia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "australia-9",
+    "code": "AUS9",
+    "label": "Lewis Miller",
+    "section": "team",
+    "teamId": "australia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "australia-10",
+    "code": "AUS10",
+    "label": "Milos Degenek",
+    "section": "team",
+    "teamId": "australia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "australia-11",
+    "code": "AUS11",
+    "label": "Jackson Irvine",
+    "section": "team",
+    "teamId": "australia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "australia-12",
+    "code": "AUS12",
+    "label": "Riley McGree",
+    "section": "team",
+    "teamId": "australia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "australia-13",
+    "code": "AUS13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "australia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "australia-14",
+    "code": "AUS14",
+    "label": "Aiden O'Neill",
+    "section": "team",
+    "teamId": "australia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "australia-15",
+    "code": "AUS15",
+    "label": "Connor Metcalfe",
+    "section": "team",
+    "teamId": "australia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "australia-16",
+    "code": "AUS16",
+    "label": "Patrick Yazbek",
+    "section": "team",
+    "teamId": "australia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "australia-17",
+    "code": "AUS17",
+    "label": "Craig Goodwin",
+    "section": "team",
+    "teamId": "australia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "australia-18",
+    "code": "AUS18",
+    "label": "Kusini Vengi",
+    "section": "team",
+    "teamId": "australia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "australia-19",
+    "code": "AUS19",
+    "label": "Nestory Irankunda",
+    "section": "team",
+    "teamId": "australia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "australia-20",
+    "code": "AUS20",
+    "label": "Mohamed Touré",
+    "section": "team",
+    "teamId": "australia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-1",
+    "code": "TUR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "turquia-2",
+    "code": "TUR2",
+    "label": "Ugurcan Cakir",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-3",
+    "code": "TUR3",
+    "label": "Mert Muldur",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-4",
+    "code": "TUR4",
+    "label": "Zeki Celik",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-5",
+    "code": "TUR5",
+    "label": "Abdulkerim Bardakci",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-6",
+    "code": "TUR6",
+    "label": "Caglar Soyuncu",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-7",
+    "code": "TUR7",
+    "label": "Merih Demiral",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-8",
+    "code": "TUR8",
+    "label": "Ferdi Kadioglu",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-9",
+    "code": "TUR9",
+    "label": "Kaan Ayhan",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-10",
+    "code": "TUR10",
+    "label": "Ismail Yuksek",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-11",
+    "code": "TUR11",
+    "label": "Hakan Calhanoglu",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-12",
+    "code": "TUR12",
+    "label": "Orkun Kokcu",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-13",
+    "code": "TUR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "turquia-14",
+    "code": "TUR14",
+    "label": "Arda Guler",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-15",
+    "code": "TUR15",
+    "label": "Irfan Can Kahveci",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-16",
+    "code": "TUR16",
+    "label": "Yunus Akgun",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-17",
+    "code": "TUR17",
+    "label": "Can Uzun",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-18",
+    "code": "TUR18",
+    "label": "Baris Alper Yilmaz",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-19",
+    "code": "TUR19",
+    "label": "Kerem Akturkoglu",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "turquia-20",
+    "code": "TUR20",
+    "label": "Kenan Yildiz",
+    "section": "team",
+    "teamId": "turquia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-1",
+    "code": "GER1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "alemania-2",
+    "code": "GER2",
+    "label": "Marc-André ter Stegen",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-3",
+    "code": "GER3",
+    "label": "Jonathan Tah",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-4",
+    "code": "GER4",
+    "label": "David Raum",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-5",
+    "code": "GER5",
+    "label": "Nico Schlotterbeck",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-6",
+    "code": "GER6",
+    "label": "Antonio Rüdiger",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-7",
+    "code": "GER7",
+    "label": "Waldemar Anton",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-8",
+    "code": "GER8",
+    "label": "Ridle Baku",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-9",
+    "code": "GER9",
+    "label": "Maximilian Mittelstadt",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-10",
+    "code": "GER10",
+    "label": "Joshua Kimmich",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-11",
+    "code": "GER11",
+    "label": "Florian Wirtz",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-12",
+    "code": "GER12",
+    "label": "Felix Nmecha",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-13",
+    "code": "GER13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "alemania-14",
+    "code": "GER14",
+    "label": "Leon Goretzka",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-15",
+    "code": "GER15",
+    "label": "Jamal Musiala",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-16",
+    "code": "GER16",
+    "label": "Serge Gnabry",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-17",
+    "code": "GER17",
+    "label": "Kai Havertz",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-18",
+    "code": "GER18",
+    "label": "Leroy Sane",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-19",
+    "code": "GER19",
+    "label": "Karim Adeyemi",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "alemania-20",
+    "code": "GER20",
+    "label": "Nick Woltemade",
+    "section": "team",
+    "teamId": "alemania",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-1",
+    "code": "CUW1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "curazao-2",
+    "code": "CUW2",
+    "label": "Eloy Room",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-3",
+    "code": "CUW3",
+    "label": "Armando Obispo",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-4",
+    "code": "CUW4",
+    "label": "Sherel Floranus",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-5",
+    "code": "CUW5",
+    "label": "Jurien Gaari",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-6",
+    "code": "CUW6",
+    "label": "Joshua Brenet",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-7",
+    "code": "CUW7",
+    "label": "Roshon Van Eijma",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-8",
+    "code": "CUW8",
+    "label": "Shurandy Sambo",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-9",
+    "code": "CUW9",
+    "label": "Livano Comenencia",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-10",
+    "code": "CUW10",
+    "label": "Godfried Roemeratoe",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-11",
+    "code": "CUW11",
+    "label": "Juninho Bacuna",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-12",
+    "code": "CUW12",
+    "label": "Leandro Bacuna",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-13",
+    "code": "CUW13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "curazao-14",
+    "code": "CUW14",
+    "label": "Tahith Chong",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-15",
+    "code": "CUW15",
+    "label": "Kenji Gorre",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-16",
+    "code": "CUW16",
+    "label": "Jearl Margaritha",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-17",
+    "code": "CUW17",
+    "label": "Jurgen Locadia",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-18",
+    "code": "CUW18",
+    "label": "Jeremy Antonisse",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-19",
+    "code": "CUW19",
+    "label": "Gervane Kastaneer",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "curazao-20",
+    "code": "CUW20",
+    "label": "Sontje Hansen",
+    "section": "team",
+    "teamId": "curazao",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-1",
+    "code": "CIV1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "costa-de-marfil-2",
+    "code": "CIV2",
+    "label": "Yahia Fofana",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-3",
+    "code": "CIV3",
+    "label": "Ghislain Konan",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-4",
+    "code": "CIV4",
+    "label": "Wilfried Singo",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-5",
+    "code": "CIV5",
+    "label": "Odilon Kossounou",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-6",
+    "code": "CIV6",
+    "label": "Evan Ndicka",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-7",
+    "code": "CIV7",
+    "label": "Willy Boly",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-8",
+    "code": "CIV8",
+    "label": "Emmanuel Agbadou",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-9",
+    "code": "CIV9",
+    "label": "Ousmane Diomande",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-10",
+    "code": "CIV10",
+    "label": "Franck Kessie",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-11",
+    "code": "CIV11",
+    "label": "Seko Fofana",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-12",
+    "code": "CIV12",
+    "label": "Ibrahim Sangare",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-13",
+    "code": "CIV13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "costa-de-marfil-14",
+    "code": "CIV14",
+    "label": "Jean-Philippe Gbamin",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-15",
+    "code": "CIV15",
+    "label": "Amad Diallo",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-16",
+    "code": "CIV16",
+    "label": "Sébastien Haller",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-17",
+    "code": "CIV17",
+    "label": "Simon Adingra",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-18",
+    "code": "CIV18",
+    "label": "Yan Diomande",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-19",
+    "code": "CIV19",
+    "label": "Evann Guessand",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "costa-de-marfil-20",
+    "code": "CIV20",
+    "label": "Oumar Diakite",
+    "section": "team",
+    "teamId": "costa-de-marfil",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-1",
+    "code": "ECU1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "ecuador-2",
+    "code": "ECU2",
+    "label": "Hernán Galíndez",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-3",
+    "code": "ECU3",
+    "label": "Gonzalo Valle",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-4",
+    "code": "ECU4",
+    "label": "Piero Hincapié",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-5",
+    "code": "ECU5",
+    "label": "Pervis Estupiñán",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-6",
+    "code": "ECU6",
+    "label": "Willian Pacho",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-7",
+    "code": "ECU7",
+    "label": "Ángelo Preciado",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-8",
+    "code": "ECU8",
+    "label": "Joel Ordóñez",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-9",
+    "code": "ECU9",
+    "label": "Moises Caicedo",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-10",
+    "code": "ECU10",
+    "label": "Alan Franco",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-11",
+    "code": "ECU11",
+    "label": "Kendry Paez",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-12",
+    "code": "ECU12",
+    "label": "Pedro Vite",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-13",
+    "code": "ECU13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "ecuador-14",
+    "code": "ECU14",
+    "label": "John Veboah",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-15",
+    "code": "ECU15",
+    "label": "Leonardo Campana",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-16",
+    "code": "ECU16",
+    "label": "Gonzalo Plata",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-17",
+    "code": "ECU17",
+    "label": "Nilson Angulo",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-18",
+    "code": "ECU18",
+    "label": "Alan Minda",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-19",
+    "code": "ECU19",
+    "label": "Kevin Rodriguez",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "ecuador-20",
+    "code": "ECU20",
+    "label": "Enner Valencia",
+    "section": "team",
+    "teamId": "ecuador",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-1",
+    "code": "NED1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "paises-bajos-2",
+    "code": "NED2",
+    "label": "Bart Verbruggen",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-3",
+    "code": "NED3",
+    "label": "Virgil van Dijk",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-4",
+    "code": "NED4",
+    "label": "Micky van de Ven",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-5",
+    "code": "NED5",
+    "label": "Jurrien Timber",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-6",
+    "code": "NED6",
+    "label": "Denzel Dumfries",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-7",
+    "code": "NED7",
+    "label": "Nathan Aké",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-8",
+    "code": "NED8",
+    "label": "Jeremie Frimpong",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-9",
+    "code": "NED9",
+    "label": "Jan Paul van Hecke",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-10",
+    "code": "NED10",
+    "label": "Tijjani Reijnders",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-11",
+    "code": "NED11",
+    "label": "Ryan Gravenberch",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-12",
+    "code": "NED12",
+    "label": "Teun Koopmeiners",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-13",
+    "code": "NED13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "paises-bajos-14",
+    "code": "NED14",
+    "label": "Frenkie de Jong",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-15",
+    "code": "NED15",
+    "label": "Xavi Simons",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-16",
+    "code": "NED16",
+    "label": "Justin Kluivert",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-17",
+    "code": "NED17",
+    "label": "Memphis Depay",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-18",
+    "code": "NED18",
+    "label": "Donyell Malen",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-19",
+    "code": "NED19",
+    "label": "Wout Weghorst",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "paises-bajos-20",
+    "code": "NED20",
+    "label": "Cody Gakpo",
+    "section": "team",
+    "teamId": "paises-bajos",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "japon-1",
+    "code": "JPN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "japon",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "japon-2",
+    "code": "JPN2",
+    "label": "Zion Suzuki",
+    "section": "team",
+    "teamId": "japon",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "japon-3",
+    "code": "JPN3",
+    "label": "Henry Heroki Mochizuki",
+    "section": "team",
+    "teamId": "japon",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "japon-4",
+    "code": "JPN4",
+    "label": "Ayumu Seko",
+    "section": "team",
+    "teamId": "japon",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "japon-5",
+    "code": "JPN5",
+    "label": "Junnosuke Suzuki",
+    "section": "team",
+    "teamId": "japon",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "japon-6",
+    "code": "JPN6",
+    "label": "Shogo Taniguchi",
+    "section": "team",
+    "teamId": "japon",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "japon-7",
+    "code": "JPN7",
+    "label": "Tsuyoshi Watanabe",
+    "section": "team",
+    "teamId": "japon",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "japon-8",
+    "code": "JPN8",
+    "label": "Kaishu Sano",
+    "section": "team",
+    "teamId": "japon",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "japon-9",
+    "code": "JPN9",
+    "label": "Yuki Soma",
+    "section": "team",
+    "teamId": "japon",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "japon-10",
+    "code": "JPN10",
+    "label": "Ao Tanaka",
+    "section": "team",
+    "teamId": "japon",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "japon-11",
+    "code": "JPN11",
+    "label": "Daichi Kamada",
+    "section": "team",
+    "teamId": "japon",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "japon-12",
+    "code": "JPN12",
+    "label": "Takefusa Kubo",
+    "section": "team",
+    "teamId": "japon",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "japon-13",
+    "code": "JPN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "japon",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "japon-14",
+    "code": "JPN14",
+    "label": "Ritsu Doan",
+    "section": "team",
+    "teamId": "japon",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "japon-15",
+    "code": "JPN15",
+    "label": "Keito Nakamura",
+    "section": "team",
+    "teamId": "japon",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "japon-16",
+    "code": "JPN16",
+    "label": "Takumi Minamino",
+    "section": "team",
+    "teamId": "japon",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "japon-17",
+    "code": "JPN17",
+    "label": "Shuto Machino",
+    "section": "team",
+    "teamId": "japon",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "japon-18",
+    "code": "JPN18",
+    "label": "Junya Ito",
+    "section": "team",
+    "teamId": "japon",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "japon-19",
+    "code": "JPN19",
+    "label": "Koki Ogawa",
+    "section": "team",
+    "teamId": "japon",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "japon-20",
+    "code": "JPN20",
+    "label": "Ayase Ueda",
+    "section": "team",
+    "teamId": "japon",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-1",
+    "code": "SWE1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "suecia-2",
+    "code": "SWE2",
+    "label": "Victor Johansson",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-3",
+    "code": "SWE3",
+    "label": "Isak Hien",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-4",
+    "code": "SWE4",
+    "label": "Gabriel Gudmundsson",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-5",
+    "code": "SWE5",
+    "label": "Emil Holm",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-6",
+    "code": "SWE6",
+    "label": "Victor Nilsson Lindelöf",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-7",
+    "code": "SWE7",
+    "label": "Gustaf Lagerbielke",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-8",
+    "code": "SWE8",
+    "label": "Lucas Bergvall",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-9",
+    "code": "SWE9",
+    "label": "Hugo Larsson",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-10",
+    "code": "SWE10",
+    "label": "Jesper Karlström",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-11",
+    "code": "SWE11",
+    "label": "Yasin Ayari",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-12",
+    "code": "SWE12",
+    "label": "Mattias Svanberg",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-13",
+    "code": "SWE13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "suecia-14",
+    "code": "SWE14",
+    "label": "Daniel Svensson",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-15",
+    "code": "SWE15",
+    "label": "Ken Sema",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-16",
+    "code": "SWE16",
+    "label": "Roony Bardghji",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-17",
+    "code": "SWE17",
+    "label": "Dejan Kulusevski",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-18",
+    "code": "SWE18",
+    "label": "Anthony Elanga",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-19",
+    "code": "SWE19",
+    "label": "Alexander Isak",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "suecia-20",
+    "code": "SWE20",
+    "label": "Viktor Gyökeres",
+    "section": "team",
+    "teamId": "suecia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-1",
+    "code": "TUN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "tunez-2",
+    "code": "TUN2",
+    "label": "Bechir Ben Said",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-3",
+    "code": "TUN3",
+    "label": "Aymen Dahmen",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-4",
+    "code": "TUN4",
+    "label": "Yan Valery",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-5",
+    "code": "TUN5",
+    "label": "Montassar Talbi",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-6",
+    "code": "TUN6",
+    "label": "Yassine Meriah",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-7",
+    "code": "TUN7",
+    "label": "Ali Abdi",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-8",
+    "code": "TUN8",
+    "label": "Dylan Bronn",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-9",
+    "code": "TUN9",
+    "label": "Ellyes Skhiri",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-10",
+    "code": "TUN10",
+    "label": "Aissa Laidouni",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-11",
+    "code": "TUN11",
+    "label": "Ferjani Sassi",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-12",
+    "code": "TUN12",
+    "label": "Mohamed Ali Ben Romdhane",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-13",
+    "code": "TUN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "tunez-14",
+    "code": "TUN14",
+    "label": "Hannibal Mejbri",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-15",
+    "code": "TUN15",
+    "label": "Elias Achouri",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-16",
+    "code": "TUN16",
+    "label": "Elias Saad",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-17",
+    "code": "TUN17",
+    "label": "Hazem Mastouri",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-18",
+    "code": "TUN18",
+    "label": "Ismael Gharbi",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-19",
+    "code": "TUN19",
+    "label": "Sayfallah Ltaief",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "tunez-20",
+    "code": "TUN20",
+    "label": "Naim Sliti",
+    "section": "team",
+    "teamId": "tunez",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-1",
+    "code": "BEL1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "belgica-2",
+    "code": "BEL2",
+    "label": "Thibaut Courtois",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-3",
+    "code": "BEL3",
+    "label": "Arthur Theate",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-4",
+    "code": "BEL4",
+    "label": "Timothy Castagne",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-5",
+    "code": "BEL5",
+    "label": "Zeno Debast",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-6",
+    "code": "BEL6",
+    "label": "Brandon Mechele",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-7",
+    "code": "BEL7",
+    "label": "Maxim De Cuyper",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-8",
+    "code": "BEL8",
+    "label": "Thomas Meunier",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-9",
+    "code": "BEL9",
+    "label": "Youri Tielemans",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-10",
+    "code": "BEL10",
+    "label": "Amadou Onana",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-11",
+    "code": "BEL11",
+    "label": "Nicolas Raskin",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-12",
+    "code": "BEL12",
+    "label": "Alexis Saelemaekers",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-13",
+    "code": "BEL13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "belgica-14",
+    "code": "BEL14",
+    "label": "Hans Vanaken",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-15",
+    "code": "BEL15",
+    "label": "Kevin De Bruyne",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-16",
+    "code": "BEL16",
+    "label": "Jérémy Doku",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-17",
+    "code": "BEL17",
+    "label": "Charles De Ketelaere",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-18",
+    "code": "BEL18",
+    "label": "Leandro Trossard",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-19",
+    "code": "BEL19",
+    "label": "Loïs Openda",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "belgica-20",
+    "code": "BEL20",
+    "label": "Romelu Lukaku",
+    "section": "team",
+    "teamId": "belgica",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-1",
+    "code": "EGY1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "egipto-2",
+    "code": "EGY2",
+    "label": "Mohamed El Shenawy",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-3",
+    "code": "EGY3",
+    "label": "Mohamed Hany",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-4",
+    "code": "EGY4",
+    "label": "Mohamed Hamdy",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-5",
+    "code": "EGY5",
+    "label": "Yasser Ibrahim",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-6",
+    "code": "EGY6",
+    "label": "Khaled Sobhi",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-7",
+    "code": "EGY7",
+    "label": "Ramy Rabia",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-8",
+    "code": "EGY8",
+    "label": "Hossam Abdelmaguid",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-9",
+    "code": "EGY9",
+    "label": "Ahmed Fatouh",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-10",
+    "code": "EGY10",
+    "label": "Marwan Attia",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-11",
+    "code": "EGY11",
+    "label": "Zizo",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-12",
+    "code": "EGY12",
+    "label": "Hamdy Fathy",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-13",
+    "code": "EGY13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "egipto-14",
+    "code": "EGY14",
+    "label": "Mohamed Lasheen",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-15",
+    "code": "EGY15",
+    "label": "Emam Ashour",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-16",
+    "code": "EGY16",
+    "label": "Osama Faisal",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-17",
+    "code": "EGY17",
+    "label": "Mohamed Salah",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-18",
+    "code": "EGY18",
+    "label": "Mostafa Mohamed",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-19",
+    "code": "EGY19",
+    "label": "Trezeguet",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "egipto-20",
+    "code": "EGY20",
+    "label": "Omar Marmoush",
+    "section": "team",
+    "teamId": "egipto",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "iran-1",
+    "code": "IRN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "iran",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "iran-2",
+    "code": "IRN2",
+    "label": "Alireza Beiranvand",
+    "section": "team",
+    "teamId": "iran",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "iran-3",
+    "code": "IRN3",
+    "label": "Morteza Pouraliganji",
+    "section": "team",
+    "teamId": "iran",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "iran-4",
+    "code": "IRN4",
+    "label": "Ehsan Hajsafi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "iran-5",
+    "code": "IRN5",
+    "label": "Milad Mohammadi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "iran-6",
+    "code": "IRN6",
+    "label": "Shojae Khalilzadeh",
+    "section": "team",
+    "teamId": "iran",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "iran-7",
+    "code": "IRN7",
+    "label": "Ramin Rezaeian",
+    "section": "team",
+    "teamId": "iran",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "iran-8",
+    "code": "IRN8",
+    "label": "Hossein Kanaani",
+    "section": "team",
+    "teamId": "iran",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "iran-9",
+    "code": "IRN9",
+    "label": "Sadegh Moharrami",
+    "section": "team",
+    "teamId": "iran",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "iran-10",
+    "code": "IRN10",
+    "label": "Saleh Hardani",
+    "section": "team",
+    "teamId": "iran",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "iran-11",
+    "code": "IRN11",
+    "label": "Saeed Ezatolahi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "iran-12",
+    "code": "IRN12",
+    "label": "Saman Ghoddos",
+    "section": "team",
+    "teamId": "iran",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "iran-13",
+    "code": "IRN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "iran",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "iran-14",
+    "code": "IRN14",
+    "label": "Omid Noorafkan",
+    "section": "team",
+    "teamId": "iran",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "iran-15",
+    "code": "IRN15",
+    "label": "Roozbeh Cheshmi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "iran-16",
+    "code": "IRN16",
+    "label": "Mohammad Mohebi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "iran-17",
+    "code": "IRN17",
+    "label": "Sardar Azmoun",
+    "section": "team",
+    "teamId": "iran",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "iran-18",
+    "code": "IRN18",
+    "label": "Mehdi Taremi",
+    "section": "team",
+    "teamId": "iran",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "iran-19",
+    "code": "IRN19",
+    "label": "Alireza Jahanbakhsh",
+    "section": "team",
+    "teamId": "iran",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "iran-20",
+    "code": "IRN20",
+    "label": "Ali Gholizadeh",
+    "section": "team",
+    "teamId": "iran",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-1",
+    "code": "NZL1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "nueva-zelanda-2",
+    "code": "NZL2",
+    "label": "Max Crocombe Payne",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-3",
+    "code": "NZL3",
+    "label": "Alex Paulsen",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-4",
+    "code": "NZL4",
+    "label": "Michael Boxall",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-5",
+    "code": "NZL5",
+    "label": "Liberato Cacace",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-6",
+    "code": "NZL6",
+    "label": "Tim Payne",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-7",
+    "code": "NZL7",
+    "label": "Tyler Bindon",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-8",
+    "code": "NZL8",
+    "label": "Francis de Vries",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-9",
+    "code": "NZL9",
+    "label": "Finn Surman",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-10",
+    "code": "NZL10",
+    "label": "Joe Bell",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-11",
+    "code": "NZL11",
+    "label": "Sarpreet Singh",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-12",
+    "code": "NZL12",
+    "label": "Ryan Thomas",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-13",
+    "code": "NZL13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "nueva-zelanda-14",
+    "code": "NZL14",
+    "label": "Matthew Garbett",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-15",
+    "code": "NZL15",
+    "label": "Marko StameniÄ‡",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-16",
+    "code": "NZL16",
+    "label": "Ben Old",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-17",
+    "code": "NZL17",
+    "label": "Chris Wood",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-18",
+    "code": "NZL18",
+    "label": "Elijah Just",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-19",
+    "code": "NZL19",
+    "label": "Callum McCowatt",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "nueva-zelanda-20",
+    "code": "NZL20",
+    "label": "Kosta Barbarouses",
+    "section": "team",
+    "teamId": "nueva-zelanda",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "espana-1",
+    "code": "ESP1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "espana",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "espana-2",
+    "code": "ESP2",
+    "label": "Unai Simon",
+    "section": "team",
+    "teamId": "espana",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "espana-3",
+    "code": "ESP3",
+    "label": "Robin Le Normand",
+    "section": "team",
+    "teamId": "espana",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "espana-4",
+    "code": "ESP4",
+    "label": "Aymeric Laporte",
+    "section": "team",
+    "teamId": "espana",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "espana-5",
+    "code": "ESP5",
+    "label": "Dean Huijsen",
+    "section": "team",
+    "teamId": "espana",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "espana-6",
+    "code": "ESP6",
+    "label": "Pedro Porro",
+    "section": "team",
+    "teamId": "espana",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "espana-7",
+    "code": "ESP7",
+    "label": "Dani Carvajal",
+    "section": "team",
+    "teamId": "espana",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "espana-8",
+    "code": "ESP8",
+    "label": "Marc Cucurella",
+    "section": "team",
+    "teamId": "espana",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "espana-9",
+    "code": "ESP9",
+    "label": "Martín Zubimendi",
+    "section": "team",
+    "teamId": "espana",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "espana-10",
+    "code": "ESP10",
+    "label": "Rodri",
+    "section": "team",
+    "teamId": "espana",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "espana-11",
+    "code": "ESP11",
+    "label": "Pedri",
+    "section": "team",
+    "teamId": "espana",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "espana-12",
+    "code": "ESP12",
+    "label": "Fabian Ruiz",
+    "section": "team",
+    "teamId": "espana",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "espana-13",
+    "code": "ESP13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "espana",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "espana-14",
+    "code": "ESP14",
+    "label": "Mikel Merino",
+    "section": "team",
+    "teamId": "espana",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "espana-15",
+    "code": "ESP15",
+    "label": "Lamine Yamal",
+    "section": "team",
+    "teamId": "espana",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "espana-16",
+    "code": "ESP16",
+    "label": "Dani Olmo",
+    "section": "team",
+    "teamId": "espana",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "espana-17",
+    "code": "ESP17",
+    "label": "Nico Williams",
+    "section": "team",
+    "teamId": "espana",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "espana-18",
+    "code": "ESP18",
+    "label": "Ferran Torres",
+    "section": "team",
+    "teamId": "espana",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "espana-19",
+    "code": "ESP19",
+    "label": "Álvaro Morata",
+    "section": "team",
+    "teamId": "espana",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "espana-20",
+    "code": "ESP20",
+    "label": "Mikel Oyarzabal",
+    "section": "team",
+    "teamId": "espana",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-1",
+    "code": "CPV1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "cabo-verde-2",
+    "code": "CPV2",
+    "label": "Vozinha",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-3",
+    "code": "CPV3",
+    "label": "Logan Costa",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-4",
+    "code": "CPV4",
+    "label": "Pico",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-5",
+    "code": "CPV5",
+    "label": "Diney",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-6",
+    "code": "CPV6",
+    "label": "Steven Moreira",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-7",
+    "code": "CPV7",
+    "label": "Wagner Pina",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-8",
+    "code": "CPV8",
+    "label": "Joao Paulo",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-9",
+    "code": "CPV9",
+    "label": "Yannick Semedo",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-10",
+    "code": "CPV10",
+    "label": "Kevin Pina",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-11",
+    "code": "CPV11",
+    "label": "Patrick Andrade",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-12",
+    "code": "CPV12",
+    "label": "Jamiro Monteiro",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-13",
+    "code": "CPV13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "cabo-verde-14",
+    "code": "CPV14",
+    "label": "Deroy Duarte",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-15",
+    "code": "CPV15",
+    "label": "Garry Rodrigues",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-16",
+    "code": "CPV16",
+    "label": "Jovane Cabral",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-17",
+    "code": "CPV17",
+    "label": "Ryan Mendes",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-18",
+    "code": "CPV18",
+    "label": "Dailon Livramento",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-19",
+    "code": "CPV19",
+    "label": "Willy Semedo",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "cabo-verde-20",
+    "code": "CPV20",
+    "label": "Bebe",
+    "section": "team",
+    "teamId": "cabo-verde",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-1",
+    "code": "KSA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "arabia-saudita-2",
+    "code": "KSA2",
+    "label": "Nawaf Alaqidi",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-3",
+    "code": "KSA3",
+    "label": "Abdulrahman Al-Sanbi",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-4",
+    "code": "KSA4",
+    "label": "Saud Abdulhamid",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-5",
+    "code": "KSA5",
+    "label": "Nawaf Bouwashl",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-6",
+    "code": "KSA6",
+    "label": "Jihad Thakri",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-7",
+    "code": "KSA7",
+    "label": "Moteb Al-Harbi",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-8",
+    "code": "KSA8",
+    "label": "Hassan Altambakti",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-9",
+    "code": "KSA9",
+    "label": "Musab Aljuwayr",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-10",
+    "code": "KSA10",
+    "label": "Ziyad Aljohani",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-11",
+    "code": "KSA11",
+    "label": "Abdullah Alkhaibari",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-12",
+    "code": "KSA12",
+    "label": "Nasser Aldawsari",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-13",
+    "code": "KSA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "arabia-saudita-14",
+    "code": "KSA14",
+    "label": "Saleh Abu Alshamat",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-15",
+    "code": "KSA15",
+    "label": "Marwan Alsahafi",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-16",
+    "code": "KSA16",
+    "label": "Salem Aldawsari",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-17",
+    "code": "KSA17",
+    "label": "Abdulrahman Al-Aboud",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-18",
+    "code": "KSA18",
+    "label": "Feras Akbrikan",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-19",
+    "code": "KSA19",
+    "label": "Saleh Alshehri",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "arabia-saudita-20",
+    "code": "KSA20",
+    "label": "Abdullah Al-Hamdan",
+    "section": "team",
+    "teamId": "arabia-saudita",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-1",
+    "code": "URU1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "uruguay-2",
+    "code": "URU2",
+    "label": "Sergio Rochet",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-3",
+    "code": "URU3",
+    "label": "Santiago Mele",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-4",
+    "code": "URU4",
+    "label": "Ronald Araujo",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-5",
+    "code": "URU5",
+    "label": "José María Giménez",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-6",
+    "code": "URU6",
+    "label": "Sebastian Caceres",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-7",
+    "code": "URU7",
+    "label": "Mathias Olivera",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-8",
+    "code": "URU8",
+    "label": "Guillermo Varela",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-9",
+    "code": "URU9",
+    "label": "Nahitan Nandez",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-10",
+    "code": "URU10",
+    "label": "Federico Valverde",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-11",
+    "code": "URU11",
+    "label": "Giorgian De Arrascaeta",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-12",
+    "code": "URU12",
+    "label": "Rodrigo Bentancur",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-13",
+    "code": "URU13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "uruguay-14",
+    "code": "URU14",
+    "label": "Manuel Ugarte",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-15",
+    "code": "URU15",
+    "label": "Nicolás de la Cruz",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-16",
+    "code": "URU16",
+    "label": "Maxi Araujo",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-17",
+    "code": "URU17",
+    "label": "Darwin Núñez",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-18",
+    "code": "URU18",
+    "label": "Federico Viñas",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-19",
+    "code": "URU19",
+    "label": "Rodrigo Aguirre",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "uruguay-20",
+    "code": "URU20",
+    "label": "Facundo Pellistri",
+    "section": "team",
+    "teamId": "uruguay",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "francia-1",
+    "code": "FRA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "francia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "francia-2",
+    "code": "FRA2",
+    "label": "Mike Maignan",
+    "section": "team",
+    "teamId": "francia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "francia-3",
+    "code": "FRA3",
+    "label": "Theo Hernandez",
+    "section": "team",
+    "teamId": "francia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "francia-4",
+    "code": "FRA4",
+    "label": "William Saliba",
+    "section": "team",
+    "teamId": "francia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "francia-5",
+    "code": "FRA5",
+    "label": "Jules Kounde",
+    "section": "team",
+    "teamId": "francia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "francia-6",
+    "code": "FRA6",
+    "label": "Ibrahima Konate",
+    "section": "team",
+    "teamId": "francia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "francia-7",
+    "code": "FRA7",
+    "label": "Dayot Upamecano",
+    "section": "team",
+    "teamId": "francia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "francia-8",
+    "code": "FRA8",
+    "label": "Lucas Digne",
+    "section": "team",
+    "teamId": "francia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "francia-9",
+    "code": "FRA9",
+    "label": "Aurélien Tchouaméni",
+    "section": "team",
+    "teamId": "francia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "francia-10",
+    "code": "FRA10",
+    "label": "Eduardo Camavinga",
+    "section": "team",
+    "teamId": "francia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "francia-11",
+    "code": "FRA11",
+    "label": "Manu Kone",
+    "section": "team",
+    "teamId": "francia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "francia-12",
+    "code": "FRA12",
+    "label": "Adrien Rabiot",
+    "section": "team",
+    "teamId": "francia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "francia-13",
+    "code": "FRA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "francia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "francia-14",
+    "code": "FRA14",
+    "label": "Michael Olise",
+    "section": "team",
+    "teamId": "francia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "francia-15",
+    "code": "FRA15",
+    "label": "Ousmane Dembele",
+    "section": "team",
+    "teamId": "francia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "francia-16",
+    "code": "FRA16",
+    "label": "Bradley Barcola",
+    "section": "team",
+    "teamId": "francia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "francia-17",
+    "code": "FRA17",
+    "label": "Désiré Doué",
+    "section": "team",
+    "teamId": "francia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "francia-18",
+    "code": "FRA18",
+    "label": "Kingsley Coman",
+    "section": "team",
+    "teamId": "francia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "francia-19",
+    "code": "FRA19",
+    "label": "Hugo Ekitike",
+    "section": "team",
+    "teamId": "francia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "francia-20",
+    "code": "FRA20",
+    "label": "Kylian Mbappe",
+    "section": "team",
+    "teamId": "francia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-1",
+    "code": "SEN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "senegal-2",
+    "code": "SEN2",
+    "label": "Edouard Mendy",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-3",
+    "code": "SEN3",
+    "label": "Yehvann Diouf",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-4",
+    "code": "SEN4",
+    "label": "Moussa Niakhaté",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-5",
+    "code": "SEN5",
+    "label": "Abdoulaye Seck",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-6",
+    "code": "SEN6",
+    "label": "Ismail Jakobs",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-7",
+    "code": "SEN7",
+    "label": "El Hadji Malick Diouf",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-8",
+    "code": "SEN8",
+    "label": "Kalidou Koulibaly",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-9",
+    "code": "SEN9",
+    "label": "Idrissa Gana Gueye",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-10",
+    "code": "SEN10",
+    "label": "Pape Matar Sarr",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-11",
+    "code": "SEN11",
+    "label": "Pape Gueye",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-12",
+    "code": "SEN12",
+    "label": "Habib Diarra",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-13",
+    "code": "SEN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "senegal-14",
+    "code": "SEN14",
+    "label": "Lamine Camara",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-15",
+    "code": "SEN15",
+    "label": "Sadio Mane",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-16",
+    "code": "SEN16",
+    "label": "Ismaïla Sarr",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-17",
+    "code": "SEN17",
+    "label": "Boulaye Dia",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-18",
+    "code": "SEN18",
+    "label": "Iliman Ndiaye",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-19",
+    "code": "SEN19",
+    "label": "Nicolas Jackson",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "senegal-20",
+    "code": "SEN20",
+    "label": "Krepin Diatta",
+    "section": "team",
+    "teamId": "senegal",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "irak-1",
+    "code": "IRQ1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "irak",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "irak-2",
+    "code": "IRQ2",
+    "label": "Jalal Hassan",
+    "section": "team",
+    "teamId": "irak",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "irak-3",
+    "code": "IRQ3",
+    "label": "Rebin Sulaka",
+    "section": "team",
+    "teamId": "irak",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "irak-4",
+    "code": "IRQ4",
+    "label": "Hussein Ali",
+    "section": "team",
+    "teamId": "irak",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "irak-5",
+    "code": "IRQ5",
+    "label": "Akam Hashem",
+    "section": "team",
+    "teamId": "irak",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "irak-6",
+    "code": "IRQ6",
+    "label": "Merchas Doski",
+    "section": "team",
+    "teamId": "irak",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "irak-7",
+    "code": "IRQ7",
+    "label": "Zaid Tahseen",
+    "section": "team",
+    "teamId": "irak",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "irak-8",
+    "code": "IRQ8",
+    "label": "Manaf Younis",
+    "section": "team",
+    "teamId": "irak",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "irak-9",
+    "code": "IRQ9",
+    "label": "Zidane Iqbal",
+    "section": "team",
+    "teamId": "irak",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "irak-10",
+    "code": "IRQ10",
+    "label": "Amir Al-Ammari",
+    "section": "team",
+    "teamId": "irak",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "irak-11",
+    "code": "IRQ11",
+    "label": "Ibrahim Bavesh",
+    "section": "team",
+    "teamId": "irak",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "irak-12",
+    "code": "IRQ12",
+    "label": "Ali Jasim",
+    "section": "team",
+    "teamId": "irak",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "irak-13",
+    "code": "IRQ13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "irak",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "irak-14",
+    "code": "IRQ14",
+    "label": "Youssef Amyn",
+    "section": "team",
+    "teamId": "irak",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "irak-15",
+    "code": "IRQ15",
+    "label": "Aimar Sher",
+    "section": "team",
+    "teamId": "irak",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "irak-16",
+    "code": "IRQ16",
+    "label": "Marko Farji",
+    "section": "team",
+    "teamId": "irak",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "irak-17",
+    "code": "IRQ17",
+    "label": "Osama Rashid",
+    "section": "team",
+    "teamId": "irak",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "irak-18",
+    "code": "IRQ18",
+    "label": "Ali Al-Hamadi",
+    "section": "team",
+    "teamId": "irak",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "irak-19",
+    "code": "IRQ19",
+    "label": "Aymen Hussein",
+    "section": "team",
+    "teamId": "irak",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "irak-20",
+    "code": "IRQ20",
+    "label": "Mohanad Ali",
+    "section": "team",
+    "teamId": "irak",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-1",
+    "code": "NOR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "noruega-2",
+    "code": "NOR2",
+    "label": "Orjan Nyland",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-3",
+    "code": "NOR3",
+    "label": "Julian Ryerson",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-4",
+    "code": "NOR4",
+    "label": "Leo Ostigård",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-5",
+    "code": "NOR5",
+    "label": "Kristoffer Vassbakk Ajer",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-6",
+    "code": "NOR6",
+    "label": "Marcus Holmgren Pedersen",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-7",
+    "code": "NOR7",
+    "label": "David Møller Wolfe",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-8",
+    "code": "NOR8",
+    "label": "Torbjørn Heggem",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-9",
+    "code": "NOR9",
+    "label": "Morten Thorsby",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-10",
+    "code": "NOR10",
+    "label": "Martin ��degaard",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-11",
+    "code": "NOR11",
+    "label": "Sander Berge",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-12",
+    "code": "NOR12",
+    "label": "Andreas Schjelderup",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-13",
+    "code": "NOR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "noruega-14",
+    "code": "NOR14",
+    "label": "Patrick Berg",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-15",
+    "code": "NOR15",
+    "label": "Erling Haaland",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-16",
+    "code": "NOR16",
+    "label": "Alexander Sørloth",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-17",
+    "code": "NOR17",
+    "label": "Aron Dønnum",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-18",
+    "code": "NOR18",
+    "label": "Jorgen Strand Larsen",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-19",
+    "code": "NOR19",
+    "label": "Antonio Nusa",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "noruega-20",
+    "code": "NOR20",
+    "label": "Oscar Bobb",
+    "section": "team",
+    "teamId": "noruega",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-1",
+    "code": "ARG1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "argentina-2",
+    "code": "ARG2",
+    "label": "Emiliano Martinez",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-3",
+    "code": "ARG3",
+    "label": "Nahuel Molina",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-4",
+    "code": "ARG4",
+    "label": "Cristian Romero",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-5",
+    "code": "ARG5",
+    "label": "Nicolas Otamendi",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-6",
+    "code": "ARG6",
+    "label": "Nicolas Tagliafico",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-7",
+    "code": "ARG7",
+    "label": "Leonardo Balerdi",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-8",
+    "code": "ARG8",
+    "label": "Enzo Fernandez",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-9",
+    "code": "ARG9",
+    "label": "Alexis Mac Allister",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-10",
+    "code": "ARG10",
+    "label": "Rodrigo De Paul",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-11",
+    "code": "ARG11",
+    "label": "Exequiel Palacios",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-12",
+    "code": "ARG12",
+    "label": "Leandro Paredes",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-13",
+    "code": "ARG13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "argentina-14",
+    "code": "ARG14",
+    "label": "Nico Paz",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-15",
+    "code": "ARG15",
+    "label": "Franco Mastantuono",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-16",
+    "code": "ARG16",
+    "label": "Nico Gonzalez",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-17",
+    "code": "ARG17",
+    "label": "Lionel Messi",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-18",
+    "code": "ARG18",
+    "label": "Lautaro Martinez",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-19",
+    "code": "ARG19",
+    "label": "Julian Alvarez",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "argentina-20",
+    "code": "ARG20",
+    "label": "Giuliano Simeone",
+    "section": "team",
+    "teamId": "argentina",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-1",
+    "code": "ALG1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "argelia-2",
+    "code": "ALG2",
+    "label": "Alexis Guendouz",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-3",
+    "code": "ALG3",
+    "label": "Ramy Bensebaini",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-4",
+    "code": "ALG4",
+    "label": "Youcef Atal",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-5",
+    "code": "ALG5",
+    "label": "Rayan Aït-Nouri",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-6",
+    "code": "ALG6",
+    "label": "Mohamed Amine Tougai",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-7",
+    "code": "ALG7",
+    "label": "Aïssa Mandi",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-8",
+    "code": "ALG8",
+    "label": "Ismael Bennacer",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-9",
+    "code": "ALG9",
+    "label": "Houssem Aquar",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-10",
+    "code": "ALG10",
+    "label": "Hicham Boudaoui",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-11",
+    "code": "ALG11",
+    "label": "Ramiz Zerrouki",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-12",
+    "code": "ALG12",
+    "label": "Nabil Bentalab",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-13",
+    "code": "ALG13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "argelia-14",
+    "code": "ALG14",
+    "label": "Farés Chaibi",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-15",
+    "code": "ALG15",
+    "label": "Riyad Mahrez",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-16",
+    "code": "ALG16",
+    "label": "Said Benrahma",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-17",
+    "code": "ALG17",
+    "label": "Anis Hadj Moussa",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-18",
+    "code": "ALG18",
+    "label": "Amine Gouiri",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-19",
+    "code": "ALG19",
+    "label": "Baghdad Bounedjah",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "argelia-20",
+    "code": "ALG20",
+    "label": "Mohammed Amoura",
+    "section": "team",
+    "teamId": "argelia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "austria-1",
+    "code": "AUT1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "austria",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "austria-2",
+    "code": "AUT2",
+    "label": "Alexander Schlager",
+    "section": "team",
+    "teamId": "austria",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "austria-3",
+    "code": "AUT3",
+    "label": "Patrick Pentz",
+    "section": "team",
+    "teamId": "austria",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "austria-4",
+    "code": "AUT4",
+    "label": "David Alaba",
+    "section": "team",
+    "teamId": "austria",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "austria-5",
+    "code": "AUT5",
+    "label": "Kevin Danso",
+    "section": "team",
+    "teamId": "austria",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "austria-6",
+    "code": "AUT6",
+    "label": "Philipp Lienhart",
+    "section": "team",
+    "teamId": "austria",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "austria-7",
+    "code": "AUT7",
+    "label": "Stefan Posch",
+    "section": "team",
+    "teamId": "austria",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "austria-8",
+    "code": "AUT8",
+    "label": "Phillipp Mwene",
+    "section": "team",
+    "teamId": "austria",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "austria-9",
+    "code": "AUT9",
+    "label": "Alexander Prass",
+    "section": "team",
+    "teamId": "austria",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "austria-10",
+    "code": "AUT10",
+    "label": "Xaver Schlager",
+    "section": "team",
+    "teamId": "austria",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "austria-11",
+    "code": "AUT11",
+    "label": "Marcel Sabitzer",
+    "section": "team",
+    "teamId": "austria",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "austria-12",
+    "code": "AUT12",
+    "label": "Konrad Laimer",
+    "section": "team",
+    "teamId": "austria",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "austria-13",
+    "code": "AUT13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "austria",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "austria-14",
+    "code": "AUT14",
+    "label": "Florian Grillitsch",
+    "section": "team",
+    "teamId": "austria",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "austria-15",
+    "code": "AUT15",
+    "label": "Nicolas Seiwald",
+    "section": "team",
+    "teamId": "austria",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "austria-16",
+    "code": "AUT16",
+    "label": "Romano Schmid",
+    "section": "team",
+    "teamId": "austria",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "austria-17",
+    "code": "AUT17",
+    "label": "Patrick Wimmer",
+    "section": "team",
+    "teamId": "austria",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "austria-18",
+    "code": "AUT18",
+    "label": "Christoph Baumgartner",
+    "section": "team",
+    "teamId": "austria",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "austria-19",
+    "code": "AUT19",
+    "label": "Michael Gregoritsch",
+    "section": "team",
+    "teamId": "austria",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "austria-20",
+    "code": "AUT20",
+    "label": "Marko ArnautoviÄ‡",
+    "section": "team",
+    "teamId": "austria",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-1",
+    "code": "JOR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "jordania-2",
+    "code": "JOR2",
+    "label": "Yazeed Abulaila",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-3",
+    "code": "JOR3",
+    "label": "Ihsan Haddad",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-4",
+    "code": "JOR4",
+    "label": "Mohammad Abu Hashish",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-5",
+    "code": "JOR5",
+    "label": "Yazan Al-Arab",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-6",
+    "code": "JOR6",
+    "label": "Abdallah Nasib",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-7",
+    "code": "JOR7",
+    "label": "Saleem Obaid",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-8",
+    "code": "JOR8",
+    "label": "Mohammad Abualnadi",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-9",
+    "code": "JOR9",
+    "label": "Ibrahim Saadeh",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-10",
+    "code": "JOR10",
+    "label": "Nizar Al-Rashdan",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-11",
+    "code": "JOR11",
+    "label": "Noor Al-Rawabdeh",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-12",
+    "code": "JOR12",
+    "label": "Mohannad Abu Taha",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-13",
+    "code": "JOR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "jordania-14",
+    "code": "JOR14",
+    "label": "Amer Jamous",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-15",
+    "code": "JOR15",
+    "label": "Musa Al-Taamari",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-16",
+    "code": "JOR16",
+    "label": "Yazan Al-Naimat",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-17",
+    "code": "JOR17",
+    "label": "Mahmoud Al-Mardi",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-18",
+    "code": "JOR18",
+    "label": "Ali Olwan",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-19",
+    "code": "JOR19",
+    "label": "Mohammad Abu Zrayq",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "jordania-20",
+    "code": "JOR20",
+    "label": "Ibrahim Sabra",
+    "section": "team",
+    "teamId": "jordania",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-1",
+    "code": "POR1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "portugal-2",
+    "code": "POR2",
+    "label": "Diogo Costa",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-3",
+    "code": "POR3",
+    "label": "Jose Sa",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-4",
+    "code": "POR4",
+    "label": "Ruben Dias",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-5",
+    "code": "POR5",
+    "label": "João Cancelo",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-6",
+    "code": "POR6",
+    "label": "Diogo Dalot",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-7",
+    "code": "POR7",
+    "label": "Nuno Mendes",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-8",
+    "code": "POR8",
+    "label": "Gonçalo Inácio",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-9",
+    "code": "POR9",
+    "label": "Bernardo Silva",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-10",
+    "code": "POR10",
+    "label": "Bruno Fernandes",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-11",
+    "code": "POR11",
+    "label": "Ruben Neves",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-12",
+    "code": "POR12",
+    "label": "Vitinha",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-13",
+    "code": "POR13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "portugal-14",
+    "code": "POR14",
+    "label": "João Neves",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-15",
+    "code": "POR15",
+    "label": "Cristiano Ronaldo",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-16",
+    "code": "POR16",
+    "label": "Francisco Trincao",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-17",
+    "code": "POR17",
+    "label": "João Felix",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-18",
+    "code": "POR18",
+    "label": "Gonçalo Ramos",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-19",
+    "code": "POR19",
+    "label": "Pedro Neto",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "portugal-20",
+    "code": "POR20",
+    "label": "Rafael Leão",
+    "section": "team",
+    "teamId": "portugal",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "congo-1",
+    "code": "COD1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "congo",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "congo-2",
+    "code": "COD2",
+    "label": "Lionel Mpasi",
+    "section": "team",
+    "teamId": "congo",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "congo-3",
+    "code": "COD3",
+    "label": "Aaron Wan-Bissaka",
+    "section": "team",
+    "teamId": "congo",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "congo-4",
+    "code": "COD4",
+    "label": "Axel Tuanzebe",
+    "section": "team",
+    "teamId": "congo",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "congo-5",
+    "code": "COD5",
+    "label": "Arthur Masuaku",
+    "section": "team",
+    "teamId": "congo",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "congo-6",
+    "code": "COD6",
+    "label": "Chancel Mbemba",
+    "section": "team",
+    "teamId": "congo",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "congo-7",
+    "code": "COD7",
+    "label": "Joris Kayembe",
+    "section": "team",
+    "teamId": "congo",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "congo-8",
+    "code": "COD8",
+    "label": "Charles Pickel",
+    "section": "team",
+    "teamId": "congo",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "congo-9",
+    "code": "COD9",
+    "label": "Ngal'ayel Mukau",
+    "section": "team",
+    "teamId": "congo",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "congo-10",
+    "code": "COD10",
+    "label": "Edo Kayembe",
+    "section": "team",
+    "teamId": "congo",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "congo-11",
+    "code": "COD11",
+    "label": "Samuel Moutoussamy",
+    "section": "team",
+    "teamId": "congo",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "congo-12",
+    "code": "COD12",
+    "label": "Noah Sadiki",
+    "section": "team",
+    "teamId": "congo",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "congo-13",
+    "code": "COD13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "congo",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "congo-14",
+    "code": "COD14",
+    "label": "Théo Bongonda",
+    "section": "team",
+    "teamId": "congo",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "congo-15",
+    "code": "COD15",
+    "label": "Meschak Elia",
+    "section": "team",
+    "teamId": "congo",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "congo-16",
+    "code": "COD16",
+    "label": "Yoane Wissa",
+    "section": "team",
+    "teamId": "congo",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "congo-17",
+    "code": "COD17",
+    "label": "Brian Cipenga",
+    "section": "team",
+    "teamId": "congo",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "congo-18",
+    "code": "COD18",
+    "label": "Fiston Mayele",
+    "section": "team",
+    "teamId": "congo",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "congo-19",
+    "code": "COD19",
+    "label": "Cédric Bakambu",
+    "section": "team",
+    "teamId": "congo",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "congo-20",
+    "code": "COD20",
+    "label": "Nathanaël Mbuku",
+    "section": "team",
+    "teamId": "congo",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-1",
+    "code": "UZB1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "uzbekistan-2",
+    "code": "UZB2",
+    "label": "Utkir Yusupov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-3",
+    "code": "UZB3",
+    "label": "Farrukh Savfiev",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-4",
+    "code": "UZB4",
+    "label": "Sherzod Nasrullaev",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-5",
+    "code": "UZB5",
+    "label": "Umar Eshmurodov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-6",
+    "code": "UZB6",
+    "label": "Husniddin Aliqulov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-7",
+    "code": "UZB7",
+    "label": "Rustamjon Ashurmatov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-8",
+    "code": "UZB8",
+    "label": "Khojiakbar Alijonov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-9",
+    "code": "UZB9",
+    "label": "Abdukodir Khusanov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-10",
+    "code": "UZB10",
+    "label": "Odiljon Hamrobekov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-11",
+    "code": "UZB11",
+    "label": "Otabek Shukurov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-12",
+    "code": "UZB12",
+    "label": "Jamshid Iskanderov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-13",
+    "code": "UZB13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "uzbekistan-14",
+    "code": "UZB14",
+    "label": "Azizbek Turgunboev",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-15",
+    "code": "UZB15",
+    "label": "Khojimat Erkinov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-16",
+    "code": "UZB16",
+    "label": "Eldor Shomurodov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-17",
+    "code": "UZB17",
+    "label": "Oston Urunov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-18",
+    "code": "UZB18",
+    "label": "Jaloliddin Masharipov",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-19",
+    "code": "UZB19",
+    "label": "Igor Sergeev",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "uzbekistan-20",
+    "code": "UZB20",
+    "label": "Abbosbek Fayzullaev",
+    "section": "team",
+    "teamId": "uzbekistan",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-1",
+    "code": "COL1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "colombia-2",
+    "code": "COL2",
+    "label": "Camilo Vargas",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-3",
+    "code": "COL3",
+    "label": "David Ospina",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-4",
+    "code": "COL4",
+    "label": "Dávinson Sánchez",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-5",
+    "code": "COL5",
+    "label": "Yerry Mina",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-6",
+    "code": "COL6",
+    "label": "Daniel Munoz",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-7",
+    "code": "COL7",
+    "label": "Johan Mojica",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-8",
+    "code": "COL8",
+    "label": "Jhon Lucumí",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-9",
+    "code": "COL9",
+    "label": "Santiago Arias",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-10",
+    "code": "COL10",
+    "label": "Jefferson Lerma",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-11",
+    "code": "COL11",
+    "label": "Kevin Castaño",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-12",
+    "code": "COL12",
+    "label": "Richard Rios",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-13",
+    "code": "COL13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "colombia-14",
+    "code": "COL14",
+    "label": "James Rodriguez",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-15",
+    "code": "COL15",
+    "label": "Juan Fernando Quintero",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-16",
+    "code": "COL16",
+    "label": "Jorge Carrascal",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-17",
+    "code": "COL17",
+    "label": "Jon Arias",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-18",
+    "code": "COL18",
+    "label": "Jhon Cordova",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-19",
+    "code": "COL19",
+    "label": "Luis Suarez",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "colombia-20",
+    "code": "COL20",
+    "label": "Luis Diaz",
+    "section": "team",
+    "teamId": "colombia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-1",
+    "code": "ENG1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "inglaterra-2",
+    "code": "ENG2",
+    "label": "Jordan Pickford",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-3",
+    "code": "ENG3",
+    "label": "John Stones",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-4",
+    "code": "ENG4",
+    "label": "Marc Guéhi",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-5",
+    "code": "ENG5",
+    "label": "Ezri Konsa",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-6",
+    "code": "ENG6",
+    "label": "Trent Alexander-Arnold",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-7",
+    "code": "ENG7",
+    "label": "Reece James",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-8",
+    "code": "ENG8",
+    "label": "Dan Burn",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-9",
+    "code": "ENG9",
+    "label": "Jordan Henderson",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-10",
+    "code": "ENG10",
+    "label": "Declan Rice",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-11",
+    "code": "ENG11",
+    "label": "Jude Bellingham",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-12",
+    "code": "ENG12",
+    "label": "Cole Palmer",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-13",
+    "code": "ENG13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "inglaterra-14",
+    "code": "ENG14",
+    "label": "Morgan Rogers",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-15",
+    "code": "ENG15",
+    "label": "Anthony Gordon",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-16",
+    "code": "ENG16",
+    "label": "Phil Foden",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-17",
+    "code": "ENG17",
+    "label": "Bukayo Saka",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-18",
+    "code": "ENG18",
+    "label": "Harry Kane",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-19",
+    "code": "ENG19",
+    "label": "Marcus Rashford",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "inglaterra-20",
+    "code": "ENG20",
+    "label": "Ollie Watkins",
+    "section": "team",
+    "teamId": "inglaterra",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-1",
+    "code": "CRO1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "croacia-2",
+    "code": "CRO2",
+    "label": "Dominik LivakoviÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-3",
+    "code": "CRO3",
+    "label": "Duje Caleta-Car",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-4",
+    "code": "CRO4",
+    "label": "Josko Gvardiol",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-5",
+    "code": "CRO5",
+    "label": "Josip StaniÅ¡iÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-6",
+    "code": "CRO6",
+    "label": "Luka VuÅ¡koviÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-7",
+    "code": "CRO7",
+    "label": "Josip Sutalo",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-8",
+    "code": "CRO8",
+    "label": "Kristijan Jakic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-9",
+    "code": "CRO9",
+    "label": "Luka ModriÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-10",
+    "code": "CRO10",
+    "label": "Mateo Kovacic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-11",
+    "code": "CRO11",
+    "label": "Martin Baturina",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-12",
+    "code": "CRO12",
+    "label": "Lovro Majer",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-13",
+    "code": "CRO13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "croacia-14",
+    "code": "CRO14",
+    "label": "Mario Pasalic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-15",
+    "code": "CRO15",
+    "label": "Petar Sucic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-16",
+    "code": "CRO16",
+    "label": "Ivan PeriÅ¡iÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-17",
+    "code": "CRO17",
+    "label": "Marco Pasalic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-18",
+    "code": "CRO18",
+    "label": "Ante Budimir",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-19",
+    "code": "CRO19",
+    "label": "Andrej KramariÄ‡",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "croacia-20",
+    "code": "CRO20",
+    "label": "Franjo Ivanovic",
+    "section": "team",
+    "teamId": "croacia",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-1",
+    "code": "GHA1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "ghana-2",
+    "code": "GHA2",
+    "label": "Lawrence Ati Zigi",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-3",
+    "code": "GHA3",
+    "label": "Tariq Lamptey",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-4",
+    "code": "GHA4",
+    "label": "Mohammed Salisu",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-5",
+    "code": "GHA5",
+    "label": "Alidu Seidu",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-6",
+    "code": "GHA6",
+    "label": "Alexander Djiku",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-7",
+    "code": "GHA7",
+    "label": "Gideon Mensah",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-8",
+    "code": "GHA8",
+    "label": "Caleb Yirenkyi",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-9",
+    "code": "GHA9",
+    "label": "Abdul Issahaku Fatawu",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-10",
+    "code": "GHA10",
+    "label": "Thomas Partey",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-11",
+    "code": "GHA11",
+    "label": "Salis Abdul Samed",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-12",
+    "code": "GHA12",
+    "label": "Kamaldeen Sulemana",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-13",
+    "code": "GHA13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "ghana-14",
+    "code": "GHA14",
+    "label": "Mohammed Kudus",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-15",
+    "code": "GHA15",
+    "label": "Inaki Williams",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-16",
+    "code": "GHA16",
+    "label": "Jordan Ayew",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-17",
+    "code": "GHA17",
+    "label": "Andrew Ayew",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-18",
+    "code": "GHA18",
+    "label": "Joseph Paintsil",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-19",
+    "code": "GHA19",
+    "label": "Osman Bukari",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "ghana-20",
+    "code": "GHA20",
+    "label": "Antoine Semenyo",
+    "section": "team",
+    "teamId": "ghana",
+    "number": 20,
+    "kind": "player"
+  },
+  {
+    "id": "panama-1",
+    "code": "PAN1",
+    "label": "Escudo del equipo",
+    "section": "team",
+    "teamId": "panama",
+    "number": 1,
+    "kind": "foil"
+  },
+  {
+    "id": "panama-2",
+    "code": "PAN2",
+    "label": "Orlando Mosquera",
+    "section": "team",
+    "teamId": "panama",
+    "number": 2,
+    "kind": "player"
+  },
+  {
+    "id": "panama-3",
+    "code": "PAN3",
+    "label": "Luis Mejia",
+    "section": "team",
+    "teamId": "panama",
+    "number": 3,
+    "kind": "player"
+  },
+  {
+    "id": "panama-4",
+    "code": "PAN4",
+    "label": "Fidel Escobar",
+    "section": "team",
+    "teamId": "panama",
+    "number": 4,
+    "kind": "player"
+  },
+  {
+    "id": "panama-5",
+    "code": "PAN5",
+    "label": "Andres Andrade",
+    "section": "team",
+    "teamId": "panama",
+    "number": 5,
+    "kind": "player"
+  },
+  {
+    "id": "panama-6",
+    "code": "PAN6",
+    "label": "Michael Amir Murillo",
+    "section": "team",
+    "teamId": "panama",
+    "number": 6,
+    "kind": "player"
+  },
+  {
+    "id": "panama-7",
+    "code": "PAN7",
+    "label": "Eric Davis",
+    "section": "team",
+    "teamId": "panama",
+    "number": 7,
+    "kind": "player"
+  },
+  {
+    "id": "panama-8",
+    "code": "PAN8",
+    "label": "Jose Cordoba",
+    "section": "team",
+    "teamId": "panama",
+    "number": 8,
+    "kind": "player"
+  },
+  {
+    "id": "panama-9",
+    "code": "PAN9",
+    "label": "Cesar Blackman",
+    "section": "team",
+    "teamId": "panama",
+    "number": 9,
+    "kind": "player"
+  },
+  {
+    "id": "panama-10",
+    "code": "PAN10",
+    "label": "Cristian Martinez",
+    "section": "team",
+    "teamId": "panama",
+    "number": 10,
+    "kind": "player"
+  },
+  {
+    "id": "panama-11",
+    "code": "PAN11",
+    "label": "Aníbal Godoy",
+    "section": "team",
+    "teamId": "panama",
+    "number": 11,
+    "kind": "player"
+  },
+  {
+    "id": "panama-12",
+    "code": "PAN12",
+    "label": "Adalberto Carrasquilla",
+    "section": "team",
+    "teamId": "panama",
+    "number": 12,
+    "kind": "player"
+  },
+  {
+    "id": "panama-13",
+    "code": "PAN13",
+    "label": "Foto del equipo",
+    "section": "team",
+    "teamId": "panama",
+    "number": 13,
+    "kind": "photo"
+  },
+  {
+    "id": "panama-14",
+    "code": "PAN14",
+    "label": "�0dgar Bárcenas",
+    "section": "team",
+    "teamId": "panama",
+    "number": 14,
+    "kind": "player"
+  },
+  {
+    "id": "panama-15",
+    "code": "PAN15",
+    "label": "Carlos Harvey",
+    "section": "team",
+    "teamId": "panama",
+    "number": 15,
+    "kind": "player"
+  },
+  {
+    "id": "panama-16",
+    "code": "PAN16",
+    "label": "Ismael Díaz",
+    "section": "team",
+    "teamId": "panama",
+    "number": 16,
+    "kind": "player"
+  },
+  {
+    "id": "panama-17",
+    "code": "PAN17",
+    "label": "Jose Fajardo",
+    "section": "team",
+    "teamId": "panama",
+    "number": 17,
+    "kind": "player"
+  },
+  {
+    "id": "panama-18",
+    "code": "PAN18",
+    "label": "Cecilio Waterman",
+    "section": "team",
+    "teamId": "panama",
+    "number": 18,
+    "kind": "player"
+  },
+  {
+    "id": "panama-19",
+    "code": "PAN19",
+    "label": "Jose Luiz Rodriguez",
+    "section": "team",
+    "teamId": "panama",
+    "number": 19,
+    "kind": "player"
+  },
+  {
+    "id": "panama-20",
+    "code": "PAN20",
+    "label": "Alberto Quintero",
+    "section": "team",
+    "teamId": "panama",
+    "number": 20,
+    "kind": "player"
+  }
+]

@@ -1,0 +1,91 @@
+---
+import { getGroups, getTeamsByGroup } from '../lib/catalog';
+import type { Team } from '../lib/types';
+
+interface Props {
+  team: Team;
+}
+
+const { team } = Astro.props;
+const groups = getGroups();
+const groupTeams = getTeamsByGroup(team.group);
+---
+
+<nav
+  class="border-4 border-on-surface bg-surface-container-lowest"
+  aria-label="Navegación por grupos"
+>
+  <div class="flex flex-wrap items-center justify-between gap-3 border-b-4 border-on-surface bg-surface-container-low px-4 py-3">
+    <div class="flex items-center gap-2">
+      <span class="material-symbols-outlined text-primary">groups</span>
+      <span class="font-anton text-sm uppercase tracking-wide text-on-surface">Grupo {team.group}</span>
+    </div>
+    <a
+      href="/equipos"
+      class="text-xs font-bold uppercase tracking-wider text-primary transition-colors hover:text-primary-container"
+    >
+      ← Todos los equipos
+    </a>
+  </div>
+
+  <div class="-mx-1 flex gap-1.5 overflow-x-auto border-b border-outline-variant/40 px-4 py-3 scrollbar-none">
+    {
+      groups.map((group) => {
+        const isCurrent = group === team.group;
+        const firstSlug = getTeamsByGroup(group)[0]?.slug;
+        return isCurrent ? (
+          <span
+            class="min-w-9 shrink-0 bg-primary px-2.5 py-1.5 text-center font-anton text-sm uppercase text-on-primary"
+            aria-current="true"
+          >
+            {group}
+          </span>
+        ) : (
+          <a
+            href={`/equipos/${firstSlug}`}
+            class="min-w-9 shrink-0 border-2 border-outline-variant/50 bg-surface-container-low px-2.5 py-1.5 text-center font-anton text-sm uppercase text-on-surface-variant transition-colors hover:border-primary hover:text-primary"
+            title={`Ir al grupo ${group}`}
+          >
+            {group}
+          </a>
+        );
+      })
+    }
+  </div>
+
+  <div class="grid grid-cols-2 gap-2 p-4 md:grid-cols-4">
+    {
+      groupTeams.map((t) => {
+        const isActive = t.id === team.id;
+        return (
+          <a
+            href={`/equipos/${t.slug}`}
+            class:list={[
+              'group relative flex flex-col gap-1 border-2 px-3 py-3 transition-all',
+              isActive
+                ? 'border-primary bg-primary/10 shadow-[4px_4px_0_0_#4a00b7]'
+                : 'border-outline-variant/40 bg-white hover:border-primary hover:bg-primary/5',
+            ]}
+            aria-current={isActive ? 'page' : undefined}
+            data-team-mini={t.id}
+          >
+            <span
+              class:list={[
+                'font-anton text-lg uppercase leading-none',
+                isActive ? 'text-primary' : 'text-on-surface group-hover:text-primary',
+              ]}
+            >
+              {t.code}
+            </span>
+            <span class="line-clamp-2 text-xs font-bold uppercase leading-tight text-on-surface-variant">
+              {t.name}
+            </span>
+            <span class="text-[10px] font-bold uppercase tracking-wider text-on-surface-variant">
+              <span data-team-mini-owned={t.id}>0/20</span> conseguidas
+            </span>
+          </a>
+        );
+      })
+    }
+  </div>
+</nav>

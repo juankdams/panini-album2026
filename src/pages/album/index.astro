@@ -1,0 +1,33 @@
+---
+import AppLayout from '../../layouts/AppLayout.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import StickerSlot from '../../components/StickerSlot.astro';
+import { getStickersBySection } from '../../lib/catalog';
+
+const apertura = getStickersBySection('apertura');
+const museum = getStickersBySection('museum');
+---
+
+<AppLayout title="Álbum especial | StickerSync 2026">
+  <Header />
+  <main class="mx-auto w-full max-w-7xl flex-grow px-section py-8">
+    <h1 class="font-anton mb-2 text-3xl uppercase text-on-surface md:text-4xl">Secciones especiales</h1>
+    <p class="mb-10 text-on-surface-variant">Apertura y FIFA Museum del álbum oficial.</p>
+
+    <section id="apertura" class="mb-16 scroll-mt-24">
+      <h2 class="font-anton mb-6 text-2xl uppercase text-primary">Apertura ({apertura.length})</h2>
+      <div class="sticker-grid grid grid-cols-3 gap-3 md:grid-cols-4 md:gap-4 lg:grid-cols-5">
+        {apertura.map((sticker) => <StickerSlot sticker={sticker} />)}
+      </div>
+    </section>
+
+    <section id="museum" class="scroll-mt-24">
+      <h2 class="font-anton mb-6 text-2xl uppercase text-secondary">FIFA Museum ({museum.length})</h2>
+      <div class="sticker-grid grid grid-cols-3 gap-3 md:grid-cols-4 md:gap-4 lg:grid-cols-5">
+        {museum.map((sticker) => <StickerSlot sticker={sticker} />)}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</AppLayout>

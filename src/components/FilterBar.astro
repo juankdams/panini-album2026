@@ -1,0 +1,33 @@
+---
+import { getConfederations, getGroups } from '../lib/catalog';
+
+const groups = getGroups();
+const confederations = getConfederations();
+---
+
+<div class="flex flex-wrap gap-3">
+  <div class="relative">
+    <select
+      class="cursor-pointer appearance-none rounded-lg border-2 border-primary/20 bg-surface-container-lowest py-2 pl-4 pr-10 text-xs font-bold uppercase focus:border-primary focus:outline-none"
+      data-filter-group
+    >
+      <option value="">Todos los grupos</option>
+      {groups.map((g) => <option value={g}>Grupo {g}</option>)}
+    </select>
+    <span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-primary">
+      expand_more
+    </span>
+  </div>
+  <div class="relative">
+    <select
+      class="cursor-pointer appearance-none rounded-lg border-2 border-primary/20 bg-surface-container-lowest py-2 pl-4 pr-10 text-xs font-bold uppercase focus:border-primary focus:outline-none"
+      data-filter-confederation
+    >
+      <option value="">Todas las confederaciones</option>
+      {confederations.map((c) => <option value={c}>{c}</option>)}
+    </select>
+    <span class="material-symbols-outlined pointer-events-none absolute right-3 top-1/2 -translate-y-1/2 text-primary">
+      filter_list
+    </span>
+  </div>
+</div>

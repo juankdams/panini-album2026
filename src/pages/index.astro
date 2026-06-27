@@ -1,17 +1,62 @@
 ---
+import AppLayout from '../layouts/AppLayout.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import StatCard from '../components/StatCard.astro';
+import TeamCard from '../components/TeamCard.astro';
+import { teams, TOTAL_STICKERS } from '../lib/catalog';
+import { emptyCollection } from '../lib/collection';
+import { allTeamProgress } from '../lib/progress';
 
+const collection = emptyCollection();
+const teamStats = allTeamProgress(collection).sort((a, b) => a.percent - b.percent).slice(0, 6);
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<AppLayout title="Inicio | StickerSync 2026">
+  <Header />
+  <main class="mx-auto w-full max-w-(--container-max) flex-grow px-section py-10">
+    <div class="mb-10">
+      <h1 class="font-anton mb-2 text-3xl uppercase tracking-tight text-on-surface md:text-6xl">Tu álbum 2026</h1>
+      <p class="text-on-surface-variant">Seguimiento personal de las {TOTAL_STICKERS} figuritas del Mundial.</p>
+    </div>
+
+    <div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <StatCard
+        label="Progreso global"
+        value="0%"
+        sub={`0 / ${TOTAL_STICKERS} figuritas`}
+        accent="primary"
+        dataKey="global"
+      />
+      <StatCard label="Faltantes" value="—" sub={`${TOTAL_STICKERS} pendientes`} accent="secondary" dataKey="missing" />
+      <StatCard label="Repetidas" value="—" sub="0 repetidas" accent="tertiary" dataKey="duplicates" />
+    </div>
+
+    <div class="mb-12 grid grid-cols-1 gap-6 md:grid-cols-3">
+      <a href="/album#apertura" class="rounded-xl border-2 border-primary/20 bg-white p-6 transition-colors hover:border-primary">
+        <div class="font-anton text-xl uppercase text-primary">Apertura</div>
+        <div class="mt-2 text-3xl font-bold text-primary" data-stat-percent="apertura">0%</div>
+        <div class="text-on-surface-variant" data-stat-sub="apertura">0 / 9</div>
+      </a>
+      <a href="/album#museum" class="rounded-xl border-2 border-primary/20 bg-white p-6 transition-colors hover:border-primary">
+        <div class="font-anton text-xl uppercase text-secondary">FIFA Museum</div>
+        <div class="mt-2 text-3xl font-bold text-secondary" data-stat-percent="museum">0%</div>
+        <div class="text-on-surface-variant" data-stat-sub="museum">0 / 11</div>
+      </a>
+      <a href="/equipos" class="rounded-xl border-2 border-primary/20 bg-white p-6 transition-colors hover:border-primary">
+        <div class="font-anton text-xl uppercase text-tertiary">Equipos</div>
+        <div class="mt-2 text-3xl font-bold text-tertiary" data-stat-percent="teams">0%</div>
+        <div class="text-on-surface-variant" data-stat-sub="teams">0 / 960</div>
+      </a>
+    </div>
+
+    <div class="mb-6 flex items-end justify-between">
+      <h2 class="font-anton text-2xl uppercase text-on-surface">Equipos por completar</h2>
+      <a href="/equipos" class="text-xs font-bold uppercase text-primary hover:underline">Ver todos</a>
+    </div>
+    <div class="grid grid-cols-1 gap-sticker-gap sm:grid-cols-2 lg:grid-cols-3">
+      {teamStats.map((tp) => <TeamCard team={tp.team} owned={tp.owned} total={tp.total} percent={tp.percent} />)}
+    </div>
+  </main>
+  <Footer />
+</AppLayout>

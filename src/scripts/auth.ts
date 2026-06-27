@@ -61,10 +61,26 @@ async function handleRegister(e: Event) {
     return;
   }
 
-  if (data.user) {
-    await migrateOnAuth(data.user.id);
+  const userId = data.session?.user?.id ?? (await trySignIn(supabase, email, password));
+  if (userId) {
+    await migrateOnAuth(userId);
     window.location.href = '/';
+    return;
   }
+
+  showError(
+    'Cuenta creada. Revisa tu correo para confirmar, o desactiva "Confirm email" en Supabase → Auth → Email.',
+  );
+}
+
+async function trySignIn(
+  supabase: NonNullable<ReturnType<typeof getSupabase>>,
+  email: string,
+  password: string,
+): Promise<string | null> {
+  const { data, error } = await supabase.auth.signInWithPassword({ email, password });
+  if (error) return null;
+  return data.user?.id ?? null;
 }
 
 function init() {

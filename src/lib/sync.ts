@@ -123,7 +123,15 @@ async function flushSync(): Promise<void> {
   }
 
   try {
-    await pushRemote(session.user.id, loadCollection());
+    const local = loadCollection();
+    const remote = await pullRemote(session.user.id);
+    const merged = mergeCollections(local, remote);
+    if (Object.keys(merged).length !== Object.keys(local).length ||
+        Object.entries(merged).some(([id, n]) => local[id] !== n)) {
+      saveCollection(merged);
+      window.dispatchEvent(new CustomEvent('collection-synced'));
+    }
+    await pushRemote(session.user.id, merged);
     setStatus('synced');
   } catch {
     setStatus('error');

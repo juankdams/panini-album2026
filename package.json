@@ -10,6 +10,8 @@
     "build": "astro build",
     "build:catalog": "node scripts/build-catalog.mjs",
     "test:supabase": "node scripts/test-supabase.mjs",
+    "push:collection": "node scripts/push-collection.mjs",
+    "import:figuritas": "node scripts/import-figuritas-app.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

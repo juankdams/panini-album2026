@@ -1,8 +1,24 @@
 <footer class="mt-auto border-t border-outline-variant bg-surface-container-lowest px-section py-8">
   <div class="mx-auto flex max-w-(--container-max) flex-col items-center justify-between gap-4 md:flex-row">
     <div class="font-anton text-lg uppercase text-primary">StickerSync 2026</div>
-    <p class="text-center text-[10px] font-bold uppercase tracking-wider text-on-surface-variant opacity-60">
-      Tracker personal del álbum Panini FIFA World Cup 2026
-    </p>
+    <div class="flex flex-col items-center gap-2">
+      <p class="text-center text-[10px] font-bold uppercase tracking-wider text-on-surface-variant opacity-60">
+        Tracker personal del álbum Panini FIFA World Cup 2026
+      </p>
+      <div class="flex flex-wrap items-center justify-center gap-3">
+        <button
+          type="button"
+          data-backup-export
+          class="text-[10px] font-bold uppercase tracking-wider text-primary hover:underline"
+        >
+          Exportar colección
+        </button>
+        <label class="cursor-pointer text-[10px] font-bold uppercase tracking-wider text-primary hover:underline">
+          Importar colección
+          <input type="file" accept="application/json,.json" class="hidden" data-backup-import />
+        </label>
+        <span class="hidden text-[10px] font-bold text-secondary" data-backup-feedback></span>
+      </div>
+    </div>
   </div>
 </footer>

@@ -19,7 +19,8 @@ import {
   formatMissingMessage,
   openWhatsApp,
 } from '../lib/whatsapp';
-import { initSyncSession, scheduleSync, signOut } from '../lib/sync';
+import { initSyncSession, mergeCollections, scheduleSync, signOut } from '../lib/sync';
+import { saveCollection } from '../lib/collection';
 import { isSupabaseConfigured } from '../lib/supabase';
 
 let collection: Collection = loadCollection();
@@ -261,6 +262,46 @@ function applyTeamFilters() {
   if (counter) counter.textContent = `Mostrando ${visible} de ${teams.length} equipos`;
 }
 
+function handleBackupExport() {
+  const blob = new Blob([JSON.stringify(collection, null, 2)], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `panini-2026-${new Date().toISOString().slice(0, 10)}.json`;
+  a.click();
+  URL.revokeObjectURL(url);
+  showBackupFeedback(`Exportadas ${Object.keys(collection).length} figuritas`);
+}
+
+async function handleBackupImport(file: File) {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(await file.text());
+  } catch {
+    showBackupFeedback('Archivo JSON inválido');
+    return;
+  }
+  if (typeof parsed !== 'object' || parsed === null || Array.isArray(parsed)) {
+    showBackupFeedback('Formato incorrecto');
+    return;
+  }
+  const incoming = parsed as Collection;
+  const merged = mergeCollections(incoming, collection);
+  saveCollection(merged);
+  collection = merged;
+  onCollectionChanged();
+  scheduleSync();
+  showBackupFeedback(`Importadas ${Object.keys(incoming).length} → ${Object.keys(merged).length} en total`);
+}
+
+function showBackupFeedback(msg: string) {
+  const el = document.querySelector('[data-backup-feedback]');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.remove('hidden');
+  setTimeout(() => el.classList.add('hidden'), 3500);
+}
+
 async function handleExport(type: 'missing' | 'duplicates', via: 'copy' | 'whatsapp') {
   let text = '';
   if (type === 'missing') {
@@ -301,6 +342,16 @@ function init() {
   document.querySelector('[data-auth-logout]')?.addEventListener('click', () => {
     void signOut();
   });
+
+  document.querySelector('[data-backup-export]')?.addEventListener('click', handleBackupExport);
+  document.querySelector('[data-backup-import]')?.addEventListener('change', (e) => {
+    const input = e.target as HTMLInputElement;
+    const file = input.files?.[0];
+    if (file) void handleBackupImport(file);
+    input.value = '';
+  });
+
+  window.addEventListener('collection-synced', onCollectionChanged);
 
   const missingList = document.querySelector('[data-list-container="missing"]');
   const dupList = document.querySelector('[data-list-container="duplicates"]');
